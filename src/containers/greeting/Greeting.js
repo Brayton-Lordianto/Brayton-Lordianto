@@ -10,7 +10,7 @@ export default function Greeting(props) {
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
-      <div className="greet-main" id="greeting">
+      <div ref={props.ref4} className="greet-main fill-window" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
@@ -27,7 +27,7 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <SocialMedia theme={theme} />
-              <div className="portfolio-repo-btn-div">
+              {/* <div className="portfolio-repo-btn-div">
                 <Button
                   text="⭐ Star Me On Github"
                   newTab={true}
@@ -35,7 +35,7 @@ export default function Greeting(props) {
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
-              </div>
+              </div> */}
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />

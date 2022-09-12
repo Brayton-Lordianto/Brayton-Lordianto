@@ -2,6 +2,8 @@ import React from "react";
 import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
 import styled from "styled-components";
+import { Icon } from "@iconify/react";
+import devpostLogo from "./devpostLogo.png";
 
 const IconWrapper = styled.span`
   i {
@@ -25,12 +27,18 @@ export default function socialMedia(props) {
             rel="noopener noreferrer"
           >
             <IconWrapper {...media} {...props}>
-              <i className={`fab ${media.fontAwesomeIcon}`}></i>
+              <i
+                className={`${media.fontAwesomeIcon}`}
+                style={{ border: "1px solid yellow" }}
+              ></i>
             </IconWrapper>
             {/* <span></span> */}
           </a>
         );
       })}
+      <IconWrapper {...props}>
+        <img src={devpostLogo} alt="not here" className="devpostLogo"></img>
+      </IconWrapper>
     </div>
   );
 }

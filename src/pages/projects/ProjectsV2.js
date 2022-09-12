@@ -53,17 +53,44 @@ class Projects extends Component {
         </div>
 
         {/* the cards */}
+        {/* featured */}
         <div className="repo-cards-div-main-unflexed">
-          <GithubRepoCard repo={ProjectsData.data[0]} theme={theme} />
+          <h1
+            className="publications-heading-text"
+            style={{ color: theme.text }}
+          >
+            🌟 Featured 🌟
+          </h1>
+          {ProjectsData.featuredProjects.map((repo) => {
+            return (
+              <div>
+                <GithubRepoCard repo={repo} theme={theme} />
+                <br></br>
+              </div>
+            );
+          })}
+          {/* unfeatured */}
         </div>
+        <h1 className="publications-heading-text" style={{ color: theme.text }}>
+          More Projects
+        </h1>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
+          {ProjectsData.unfeaturedProjects.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
         <Button
-          text={"More Projects"}
+          text={"View All Repositories in Github"}
           className="project-button"
+          style={{ display: "flex" }}
+          href={greeting.githubProfile}
+          newTab={true}
+          theme={theme}
+        />
+        <Button
+          text={"View All Hackathon Projects in Devpost"}
+          className="project-button"
+          style={{ display: "flex" }}
           href={greeting.githubProfile}
           newTab={true}
           theme={theme}

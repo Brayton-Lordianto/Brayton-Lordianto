@@ -7,61 +7,44 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Albert's Portfolio",
-  description:
-    "FUll Stack Developer | Block chain Expert",
+  title: "Brayton's Portfolio",
+  description: "",
   og: {
-    title: "Albert Habin Portfolio",
+    title: "Brayton's Portfolio",
     type: "website",
-    url: "http://alberthathidara.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Albert Habin",
-  logo_name: "Albert Habin",
-  nickname: "JeszaAS",
+  title: "Brayton Lordianto",
+  logo_name: "",
+  nickname: "#BrayLord",
   subTitle:
-    "FUll Stack Developer | Block chain Expert",
+    "Computer Science Student at New York University | Web and Mobile Developer",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/BritnessDev",
+  portfolio_repository: "",
   githubProfile: "https://github.com/BritnessDev",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
-    link: "https://github.com/BritnessDev",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    link: "https://github.com/Brayton-Lordianto",
+    fontAwesomeIcon: "fab fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "Gmail",
-    link: "thsbluehsg@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    link: "https://mail.google.com/mail/?view=cm&fs=1&to=bl3321@nyu.edu",
+    fontAwesomeIcon: "fa fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "Red", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "Telegram",
-    link: "https://t.me/BritnessDev",
-    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
-  {
-    name: "Skype",
-    link: "https://t.me/BritnessDev",
-    fontAwesomeIcon: "fa-skype", // Reference https://fontawesome.com/icons/instagram?style=brands
+    name: "LinkedIN",
+    link: "https://www.linkedin.com/in/brayton-lordianto/",
+    fontAwesomeIcon: "fab fa-linkedin", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "Blue", // Reference https://simpleicons.org/?q=instagram
   },
 ];
@@ -350,17 +333,18 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "New York University (NYU)",
+      subtitle: "B.S in Computer Science, GPA: 4.0/4.0, Dean's List 2021-2022",
+      logo_path: "nyu_logo_dark.png",
+      alt_name: "NYU",
+      duration: "2021 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "📚 CS/Math Courses: Data Structures, Database Design and Implementation, Object-Oriented Programming, Discrete Mathematics, Linear Algebra, Computer Organization",
+        "🗽 Liberal Studies/General Education Courses: Writing as Exploration I and II, Arts and Cultures I and II and III, Global Works and Society I and II and III",
+        "⚡ CS Activities: NYU CS tutor for Data Structures and OOP, iOS leader/developer at AR Library VIP Team (20+ students), Treasurer/coder at Competitive Programming Club ",
+        "🤸‍♂️ Other activities: Professional Development Event Organizer at PERMIAS (Indonesian Student Association) NYC, Freshman Representative and Event Organizer at Indonesian Student Association NYU, NYU Table-Tennis Team, Recreational Chess Club (ELO: 1300 - 5 min, 1600 - 1 min)",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "http://nyu.edu",
     },
   ],
 };
@@ -620,7 +604,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My motive for projects is and always have been to create something that has potential to solve problems. It's a little cliche, but is an often overlooked factor of project ideation. Because I learn my best when doing, I like to push myself to use new technologies in projects to get familiar with them. Projects include personal and hackathon projects. Click on a project to learn more about it!",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -648,10 +632,10 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Budowlanych 48/42, 63-157 Mikołów",
+    subtitle: "Budowlanych 48/42, 63-157 Mikołów",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.com/maps/d/viewer?mid=1iOuLbw9_GB6ZBs8pg61OnElHzQE&hl=en_US",
+    location_map_link:
+      "https://www.google.com/maps/d/viewer?mid=1iOuLbw9_GB6ZBs8pg61OnElHzQE&hl=en_US",
   },
   phoneSection: {
     title: "Phone Number",

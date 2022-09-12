@@ -64,6 +64,17 @@
   font-size: 56px;
   font-weight: 600;
 }
+
+.repo-cards-div-main-unflexed {
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem 1rem;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+
 .repo-cards-div-main {
   display: flex;
   flex-direction: row;

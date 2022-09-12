@@ -140,7 +140,7 @@
           "src/href": item.src || item.href || "n/a",
           "innerText excerpt":
             item.innerText && item.innerText !== ""
-              ? item.innerText.slice(0, 200) + "..."
+              ? item.innerText.slice(0, 200) + ""
               : "(empty)",
         };
       }
@@ -166,7 +166,7 @@
           "src/href": _item.src || _item.href || "n/a",
           "innerText excerpt":
             _item.innerText && _item.innerText !== ""
-              ? _item.innerText.slice(0, 200) + "..."
+              ? _item.innerText.slice(0, 200)
               : "(empty)",
         };
       }
@@ -193,7 +193,7 @@
           "src/href": _item2.src || _item2.href || "n/a",
           "innerText excerpt":
             _item2.innerText && _item2.innerText !== ""
-              ? _item2.innerText.slice(0, 200) + "..."
+              ? _item2.innerText.slice(0, 200)
               : "(empty)",
         };
       }

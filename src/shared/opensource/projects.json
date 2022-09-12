@@ -1,1 +1,363 @@
-{"data":[{"id":"MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=","name":"masterPortfolio","createdAt":"2020-03-06T16:26:54Z","url":"https://github.com/ashutosh1919/masterPortfolio","description":"The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ","isFork":false,"languages":[{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=","name":"truvisory","createdAt":"2020-06-03T11:53:55Z","url":"https://github.com/ashutosh1919/truvisory","description":"This project is meant to provide resources to users who want to access good LinkedIn posts which contains resources to learn any Technology, Design, Self-Branding, Motivation etc. You can visit project by:","isFork":false,"languages":[{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=","name":"ml-data-bot","createdAt":"2020-06-19T14:24:55Z","url":"https://github.com/ashutosh1919/ml-data-bot","description":"Chatbot which helps you to get important statistics from the data to get insights to build Machine learning, Deep learning and Statistical models","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"}]},{"id":"MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=","name":"Stock-Prediction-using-LSTM","createdAt":"2018-11-03T05:00:56Z","url":"https://github.com/ashutosh1919/Stock-Prediction-using-LSTM","description":"This Project is predicting stocks for 32 companies with error less than 1% using LSTM Networks.","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"},{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=","name":"Pick-Parser","createdAt":"2019-08-13T13:13:00Z","url":"https://github.com/dsc-iiitdmk/Pick-Parser","description":"This Project is to create a tool which can parse the Resumes and transform them into our own templates","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"}]},{"id":"MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=","name":"Survival_3D_Game","createdAt":"2019-04-18T17:25:51Z","url":"https://github.com/ashutosh1919/Survival_3D_Game","description":"Survival Game using Unity3D","isFork":false,"languages":[{"name":"C#","iconifyClass":"logos-c-sharp"}]}]}
+{
+  "data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
+      "name": "StudyBud",
+      "createdAt": "Sep 2022 (team of 4)",
+      "url": "https://devpost.com/software/studybot-bh3o71",
+      "description": "Submitted to Hack to School (Best Use of Google Cloud [GC] prize). A Discord bot that uses GC to store documents/assignments and GC Vision to scan pdfs and images.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "cib:typescript"
+        },
+        {
+          "name": "Google Cloud",
+          "iconifyClass": "logos:google-cloud"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos:firebase"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Youtube-Sumarizr",
+      "createdAt": "Aug 2020 (team of 4)",
+      "url": "https://devpost.com/software/summarizr-hczls7",
+      "description": "Submitted to PeddieHacks 2022 ($1000-cash Passion Prize and Best Education Track). This project allows users (intended to be students or teachers) to get auto-chapters or summaries of any youtube video. They can then choose to ask a ML bot questions about these chapters and get answers. This allows students to absorb content fast and easily.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconifyClass": "logos-tailwindcss-icon"
+        },
+        {
+          "name": "Tensorflow (BERT)",
+          "iconifyClass": "logos-tensorflow"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
+      "name": "Village Volunteer",
+      "createdAt": "Aug 2020 (team of 4)",
+      "url": "https://devpost.com/software/village-volunteer",
+      "description": "A mobile app and a Figma-extended prototype that helps the elderly to connect with young people that want to do daily chores for free or a cheap tip fee.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Swift",
+          "iconifyClass": "logos-swift"
+        },
+        {
+          "name": "Figma",
+          "iconifyClass": "logos-figma"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
+      "name": "PetMe: Augmented Reality App",
+      "createdAt": "Aug 2022 (team of 4)",
+      "url": "https://devpost.com/software/petme-xg07r8",
+      "description": "An app that allows pet lovers to adopt injured/unwanted animals from vendors. They can view the animal in 3D to choose the animal they want. Won Best use of SQL in a hackathon. ",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Twilio",
+          "iconifyClass": "logos-twilio-icon"
+        },
+        {
+          "name": "Python and Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "ARKit and RealityKit on Mobile with Swift",
+          "iconifyClass": "tabler:augmented-reality"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=",
+      "name": "Hackathon-er's Hall of Fame",
+      "createdAt": "July 2022 (Solo)",
+      "url": "https://devpost.com/software/hacker-s-hall-of-fame",
+      "description": "A Web3 mobile app using a flask server. Hackathon organizers can interact with a WhatsApp bot that creates an NFT of badges on the DeSo blockchain and distributes it to hackathon participants who earned it!",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "DeSo decentralized blockchain",
+          "iconifyClass": "icon-park:blockchain"
+        },
+        {
+          "name": "Swift",
+          "iconifyClass": "logos-swift"
+        },
+        {
+          "name": "Twilio",
+          "iconifyClass": "logos-twilio-icon"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=",
+      "name": "Trash-ure Map",
+      "createdAt": "2019-04-18T17:25:51Z",
+      "url": "https://devpost.com/software/healthmedia",
+      "description": "Won First Place in FiveHacks, Second Place in MergeHacks and Data Grind Hacks. A social media app for litter. Users post litter they've found online. Google Cloud Vision identifies the product (such as a Coca-cola can) and stores it in the database along with the location it is found. A crowdmap of the found data in respective regions is publicly provided, with the intention of being proof of litter and to hold companies like Coca-cola accountable for their litter.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Leaflet/Folium UI",
+          "iconifyClass": "logos-leaflet"
+        },
+        {
+          "name": "Python and Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "Google Cloud",
+          "iconifyClass": "logos:google-cloud"
+        },
+        {
+          "name": "SQL",
+          "iconifyClass": "vscode-icons:file-type-plsql"
+        }
+      ]
+    }
+  ],
+  "featuredProjects": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Worktime Tracker",
+      "createdAt": "May 2020 - February 2021",
+      "url": "https://github.com/Brayton-Lordianto/Worktime-Tracker",
+      "description": "Created during the start of the COVID-19 pandemic. A worktime tracking app for employees of the client that saved 3+ days/month of the client's time. The project was also submitted as the Internal Assessment for my International Baccalaureate Computer Science course (received a score of 7 over 7).",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Swift + SwiftUI",
+          "iconifyClass": "logos-swift"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Youtube-Sumarizr",
+      "createdAt": "Aug 2020 (team of 4)",
+      "url": "https://devpost.com/software/summarizr-hczls7",
+      "description": "Submitted to PeddieHacks 2022 ($1000-cash Passion Prize and Best Education Track). This project allows users (intended to be students or teachers) to get auto-chapters or summaries of any youtube video. They can then choose to ask a ML bot questions about these chapters and get answers. This allows students to absorb content fast and easily.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconifyClass": "logos-tailwindcss-icon"
+        },
+        {
+          "name": "Tensorflow (BERT)",
+          "iconifyClass": "logos-tensorflow"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=",
+      "name": "Trash-ure Map",
+      "createdAt": "July 2022 (team of 4)",
+      "url": "https://devpost.com/software/healthmedia",
+      "description": "Won First Place in FiveHacks, Second Place in MergeHacks and Data Grind Hacks. A social media app for litter. Users post litter they've found online. Google Cloud Vision identifies the product (such as a Coca-cola can) and stores it in the database along with the location it is found. A crowdmap of the found data in respective regions is publicly provided, with the intention of being proof of litter and to hold companies like Coca-cola accountable for their litter.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Leaflet/Folium UI",
+          "iconifyClass": "logos-leaflet"
+        },
+        {
+          "name": "Python and Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "Google Cloud",
+          "iconifyClass": "logos:google-cloud"
+        },
+        {
+          "name": "SQL",
+          "iconifyClass": "vscode-icons:file-type-plsql"
+        }
+      ]
+    }
+  ],
+  "icons": "https://icon-sets.iconify.design/?query=swift",
+  "unfeaturedProjects": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
+      "name": "StudyBud",
+      "createdAt": "Sep 2022 (team of 4)",
+      "url": "https://devpost.com/software/studybot-bh3o71",
+      "description": "Submitted to Hack to School (Best Use of Google Cloud [GC] prize). A Discord bot that uses GC to store documents/assignments and GC Vision to scan pdfs and images.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "cib:typescript"
+        },
+        {
+          "name": "Google Cloud",
+          "iconifyClass": "logos:google-cloud"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos:firebase"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
+      "name": "Village Volunteer",
+      "createdAt": "Aug 2020 (team of 4)",
+      "url": "https://devpost.com/software/village-volunteer",
+      "description": "A mobile app and a Figma-extended prototype that helps the elderly to connect with young people that want to do daily chores for free or a cheap tip fee.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Swift",
+          "iconifyClass": "logos-swift"
+        },
+        {
+          "name": "Figma",
+          "iconifyClass": "logos-figma"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
+      "name": "PetMe: Augmented Reality App",
+      "createdAt": "Aug 2022 (team of 4)",
+      "url": "https://devpost.com/software/petme-xg07r8",
+      "description": "An app that allows pet lovers to adopt injured/unwanted animals from vendors. They can view the animal in 3D to choose the animal they want. Won Best use of SQL in a hackathon. ",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Twilio",
+          "iconifyClass": "logos-twilio-icon"
+        },
+        {
+          "name": "Python and Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "ARKit and RealityKit on Mobile with Swift",
+          "iconifyClass": "tabler:augmented-reality"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=",
+      "name": "Hackathon-er's Hall of Fame",
+      "createdAt": "July 2022 (Solo)",
+      "url": "https://devpost.com/software/hacker-s-hall-of-fame",
+      "description": "A Web3 mobile app using a flask server. Hackathon organizers can interact with a WhatsApp bot that creates an NFT of badges on the DeSo blockchain and distributes it to hackathon participants who earned it!",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "DeSo decentralized blockchain",
+          "iconifyClass": "icon-park:blockchain"
+        },
+        {
+          "name": "Swift",
+          "iconifyClass": "logos-swift"
+        },
+        {
+          "name": "Twilio",
+          "iconifyClass": "logos-twilio-icon"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Command-Line Adventure and Fantasy Game",
+      "createdAt": "January - May 2022",
+      "url": "",
+      "description": "This project was a semester-long compilation of class assignments built up on each other. The repository is not made public. I used the projects to learn C++ in it's entirety, including multiple inheritance, pointers, memory allocation and deallocation, operator overloading, polymorphism, and more.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "C++",
+          "iconifyClass": "logos-c-plusplus"
+        }
+      ]
+    }
+  ],
+  "unflexed-data": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Worktime Tracker",
+      "createdAt": "May 2020 - February 2021",
+      "url": "https://github.com/Brayton-Lordianto/Worktime-Tracker",
+      "description": "Created during the start of the COVID-19 pandemic. A worktime tracking app for employees of the client that saved 3+ days/month of the client's time. The project was also submitted as the Internal Assessment for my International Baccalaureate Computer Science course (received a score of 7 over 7).",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Swift + SwiftUI",
+          "iconifyClass": "logos-swift"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Command-Line Adventure and Fantasy Game",
+      "createdAt": "January - May 2022",
+      "url": "",
+      "description": "This project was a semester-long compilation of class assignments built up on each other. The repository is not made public. I used the projects to learn C++ in it's entirety, including multiple inheritance, pointers, memory allocation and deallocation, operator overloading, polymorphism, and more.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "C++",
+          "iconifyClass": "logos-c-plusplus"
+        }
+      ]
+    }
+  ]
+}
