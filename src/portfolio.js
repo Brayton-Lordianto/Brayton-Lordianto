@@ -42,7 +42,7 @@ const socialMediaLinks = [
     backgroundColor: "Red", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "LinkedIN",
+    name: "LinkedIn",
     link: "https://www.linkedin.com/in/brayton-lordianto/",
     fontAwesomeIcon: "fab fa-linkedin", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "Blue", // Reference https://simpleicons.org/?q=instagram
