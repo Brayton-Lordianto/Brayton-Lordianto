@@ -80,7 +80,7 @@ class Projects extends Component {
           })}
         </div>
         <Button
-          text={"View All Repositories in Github"}
+          text={"View All Repositories on Github"}
           className="project-button"
           style={{ display: "flex" }}
           href={greeting.githubProfile}
@@ -88,7 +88,7 @@ class Projects extends Component {
           theme={theme}
         />
         <Button
-          text={"View All Hackathon Projects in Devpost"}
+          text={"View All Hackathon Projects on Devpost"}
           className="project-button"
           style={{ display: "flex" }}
           href={greeting.githubProfile}

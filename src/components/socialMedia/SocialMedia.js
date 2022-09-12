@@ -36,8 +36,11 @@ export default function socialMedia(props) {
           </a>
         );
       })}
+      {/* added devpost logo since not available normally. */}
       <IconWrapper {...props}>
-        <img src={devpostLogo} alt="not here" className="devpostLogo"></img>
+        <a href="https://devpost.com/bl3321">
+          <img src={devpostLogo} alt="not here" className="devpostLogo"></img>
+        </a>
       </IconWrapper>
     </div>
   );
