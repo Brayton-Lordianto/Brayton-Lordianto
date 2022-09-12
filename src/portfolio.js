@@ -251,7 +251,7 @@ const skills = {
           },
         },
         {
-          skillName: "Blockchain understanding (DeSo, etc.)",
+          skillName: "Blockchain understanding (DeSo, IPFS, etc.)",
           fontAwesomeClassname: "icon-park:blockchain",
           style: {
             backgroundColor: "white",

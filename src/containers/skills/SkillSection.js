@@ -22,7 +22,7 @@ class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div>
+      <div style={{ textAlign: "center" }}>
         {skills.data.map((skill) => {
           return (
             <div className="skills-main-div">
