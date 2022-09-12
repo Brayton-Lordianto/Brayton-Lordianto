@@ -21,7 +21,7 @@ const greeting = {
   logo_name: "",
   nickname: "#BrayLord",
   subTitle:
-    "Computer Science Student at New York University | Web and Mobile Developer",
+    "2nd Year Computer Science Student at New York University | Web and Mobile Developer",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "",
