@@ -155,7 +155,7 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
+          skillName: "Google Cloud (Storage + Vision API)",
           fontAwesomeClassname: "simple-icons:googlecloud",
           style: {
             color: "#4285F4",
@@ -166,13 +166,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
           },
         },
         {
@@ -190,30 +183,45 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
+          skillName: "CockroachDB",
+          fontAwesomeClassname: "simple-icons:cockroachlabs",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "SQL in general",
+          fontAwesomeClassname: "ant-design:console-sql-outlined",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MongoDB, Mongo Atlas",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#47A248",
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
           style: {
-            color: "#1488C6",
+            color: "#47A248",
           },
         },
+
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "Flask, FastAPI",
+          fontAwesomeClassname: "cib:flask",
           style: {
-            color: "#326CE5",
+            color: "#47A248",
           },
         },
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Other",
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
@@ -222,13 +230,6 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
           style: {
@@ -236,16 +237,24 @@ const skills = {
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Canva UI/UX designing",
+          fontAwesomeClassname: "simple-icons:canva",
           style: {
             color: "#FF7C00",
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Twilio API",
+          fontAwesomeClassname: "logos:twilio-icon",
           style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Blockchain understanding (DeSo, etc.)",
+          fontAwesomeClassname: "icon-park:blockchain",
+          style: {
+            backgroundColor: "white",
             color: "#000000",
           },
         },
