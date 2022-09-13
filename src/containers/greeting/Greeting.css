@@ -69,12 +69,12 @@
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 0px;
     text-align: center;
   }
   .greeting-nickname {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
   }
   .greeting-text-p {
@@ -85,6 +85,13 @@
   }
   .greeting-main {
     display: block;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
   }
 
   .portfolio-repo-btn-div {

@@ -26,7 +26,8 @@ export default function Greeting(props) {
               </div>
 
               <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                ( {greeting.nickname} )
+                Hello World!
+                {/* ( {greeting.nickname} ) */}
               </h2>
               <p
                 className="greeting-text-p subTitle"
@@ -39,13 +40,20 @@ export default function Greeting(props) {
           </div>
           <div className="greeting-image-div">
             <div style={{ display: "flex", flexDirection: "column" }}>
+              {/* <img src="https://giphy.com/embed/Zg2Qhq6vUW8QLUzZJ5" width="312" height="480" frameBorder="0" class="giphy-embed" allowFullScreen /> */}
               <img
+                src="https://media.giphy.com/media/Zg2Qhq6vUW8QLUzZJ5/giphy.gif"
+                className="withAnimation"
+                alt="gif"
+              />
+              {/* these are the spongebob and adventure time gifs
+               <img
                 src="https://media.giphy.com/media/jzGZrkWV6SOWs/giphy.gif"
                 title="feeling proud"
                 alt="Not available"
                 className="withAnimation"
               />
-              <img src="https://i.gifer.com/yB.gif" className="withAnimation" />
+              <img src="https://i.gifer.com/yB.gif" className="withAnimation" /> */}
             </div>
 
             {/* <FeelingProud theme={theme} /> */}

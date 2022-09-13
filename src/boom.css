@@ -8,6 +8,10 @@ i {
   animation: 0.15s boom infinite;
 }
 
+.withSlowAnimation {
+  animation: 2s boom infinite;
+}
+
 .glow {
   filter: drop-shadow(-4px 0px 5px red) drop-shadow(4px 0 5px cyan);
 }

@@ -325,6 +325,18 @@ const degrees = {
       ],
       website_link: "http://nyu.edu",
     },
+    {
+      title: "Jakarta Intercultural School (JIS)",
+      subtitle: "High School Diploma",
+      logo_path: "jis_logo_3.png",
+      alt_name: "JIS",
+      duration: "2019-2021",
+      descriptions: [
+        "🏅 Canadian Computing Competition - Junior Division 2020 (Certificate of Distinction, top 25%)",
+        "🤾‍♂️ Coding Club leader (1yr), Indonesian Club (Vice-President 1.5yr, Secretary 1.5yr)",
+      ],
+      website_link: "https://www.jisedu.or.id/",
+    },
   ],
 };
 

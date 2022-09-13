@@ -32,7 +32,7 @@ export default function GithubRepoCard({ repo, theme }) {
             </p>
           </div>
           <div>
-            <p className="repo-description" style={{ color: theme.text }}>
+            <p className="repo-description" style={{ color: "#1B4F50" }}>
               {repo.description}
             </p>
           </div>

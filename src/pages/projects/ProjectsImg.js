@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../../boom.css";
 
 export default class ProjectsImg extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class ProjectsImg extends Component {
         width="1103.79"
         height="707.8"
         viewBox="0 0 1103.79 707.8"
+        className="glow withSlowAnimation"
       >
         <defs>
           <linearGradient

@@ -77,7 +77,7 @@ export const blackTheme = {
 export const myBlackTheme = {
   body: "#222",
   text: "White",
-  highlight: "#A6E1FA",
+  highlight: "#BBE8FB",
   dark: "#00072D",
   secondaryText: "#07beb8",
   imageHighlight: "#fca311",
