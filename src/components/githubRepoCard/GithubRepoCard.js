@@ -43,11 +43,9 @@ export default function GithubRepoCard({ repo, theme }) {
             >
               {repo.createdAt.split("T")[0]}
             </p>
-            <ProjectLanguages
-              className="repo-languages"
-              logos={repo.languages}
-            />
           </div>
+          {/* <br></br><br></br> */}
+          <ProjectLanguages className="repo-languages" logos={repo.languages} />
         </div>
       </Fade>
     </div>
