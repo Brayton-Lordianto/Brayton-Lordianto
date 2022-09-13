@@ -1,3 +1,4 @@
+// changed display and stuff of 'i' element
 import React from "react";
 import "./TopButton.css";
 
@@ -59,7 +60,12 @@ export default function TopButton({ theme }) {
       onMouseEnter={() => onMouseEnter(theme.text, theme.body)}
       onMouseLeave={() => onMouseLeave(theme.body, theme.text)}
     >
-      <i class="fas fa-arrow-up" id="arrow" aria-hidden="true" />
+      <i
+        class="fas fa-arrow-up"
+        id="arrow"
+        aria-hidden="true"
+        style={{ filter: "none", display: "inline" }}
+      />
     </div>
   );
 }
