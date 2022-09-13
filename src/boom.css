@@ -1,0 +1,19 @@
+img,
+i {
+  width: 20vw;
+  filter: drop-shadow(-4px 0px 5px red) drop-shadow(4px 0 5px cyan);
+}
+
+.withAnimation {
+  animation: 0.15s boom infinite;
+}
+
+.glow {
+  filter: drop-shadow(-4px 0px 5px red) drop-shadow(4px 0 5px cyan);
+}
+
+@keyframes boom {
+  to {
+    filter: drop-shadow(-8px 0 5px red) drop-shadow(8px 0 5px cyan);
+  }
+}

@@ -39,7 +39,11 @@ export default function socialMedia(props) {
       {/* added devpost logo since not available normally. */}
       <IconWrapper {...props}>
         <a href="https://devpost.com/bl3321">
-          <img src={devpostLogo} alt="not here" className="devpostLogo"></img>
+          <img
+            src={devpostLogo}
+            alt="not here"
+            className="devpostLogo boomEffect"
+          ></img>
         </a>
       </IconWrapper>
     </div>
