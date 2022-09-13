@@ -1,7 +1,6 @@
 import React from "react";
 import "./SoftwareSkill.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
-
 class SoftwareSkill extends React.Component {
   render() {
     return (
@@ -28,7 +27,7 @@ class SoftwareSkill extends React.Component {
                 >
                   <li className="software-skill-inline" name={logo.skillName}>
                     <span
-                      className="iconify"
+                      className="iconify hover-glow"
                       data-icon={logo.fontAwesomeClassname}
                       style={logo.style}
                       data-inline="false"

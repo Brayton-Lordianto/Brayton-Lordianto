@@ -18,6 +18,11 @@
   color: #868e96;
 }
 
+.hover-glow:hover {
+  filter: drop-shadow(-4px 0px 5px red) drop-shadow(4px 0 5px white);
+  animation: 1s boom infinite;
+}
+
 .software-skill-inline > i:hover {
   color: #645beb;
 }
