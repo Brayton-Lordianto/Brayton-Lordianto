@@ -8,17 +8,23 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import "../../typewriter.css";
 import SkillsAndFeatured from "../NewTechAndFeatured/SkillsAndFeatured";
+import MyHeader from "../../components/header/myHeader";
 
 function Home(props) {
-  const ref4 = useRef(null);
-  const ref2 = useRef(null);
-  const ref3 = useRef(null);
+  const homeRef = useRef();
+  const educationRef = useRef();
+  const projectsRef = useRef();
 
   return (
     <div>
-      {/* <Header theme={this.props.theme} /> */}
+      <MyHeader
+        theme={props.theme}
+        homeRef={homeRef}
+        educationRef={educationRef}
+        projectsRef={projectsRef}
+      />
       <div style={{ margin: "200px 0 200px 0" }}></div>
-      <Greeting ref4={ref4} theme={props.theme} />
+      <Greeting reference={homeRef} theme={props.theme} />
 
       {/* <SkillsAndFeatured theme={props.theme} /> */}
 
@@ -26,10 +32,10 @@ function Home(props) {
 
       <div style={{ margin: "200px 0 200px 0" }}></div>
       {/* <hr style={{"margin":"200px 0 200px 0"}}></hr> */}
-      <Education ref={ref2} theme={props.theme} />
+      <Education theme={props.theme} reference={educationRef} />
       <div style={{ margin: "200px 0 200px 0" }}></div>
       {/* <hr style={{"margin":"200px 0 200px 0"}}></hr> */}
-      <Projects ref={ref3} theme={props.theme} />
+      <Projects theme={props.theme} reference={projectsRef} />
       <div style={{ margin: "200px 0 200px 0" }}></div>
     </div>
   );

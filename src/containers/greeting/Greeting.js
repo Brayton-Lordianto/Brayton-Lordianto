@@ -14,7 +14,7 @@ export default function Greeting(props) {
   return (
     <Fade bottom duration={2000} distance="40px">
       <div ref={props.ref4} className="greet-main fill-window" id="greeting">
-        <div className="greeting-main">
+        <div className="greeting-main" ref={props.reference}>
           <div className="greeting-text-div">
             <div>
               <div style={{ display: "flex" }}>

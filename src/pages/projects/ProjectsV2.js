@@ -20,7 +20,7 @@ class Projects extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="projects-main">
+      <div className="projects-main" ref={this.props.reference}>
         {/* <Header theme={theme} /> */}
 
         {/* just the heading */}

@@ -64,7 +64,8 @@
   display: inline-block;
   float: right;
   padding: 28px 20px;
-  position: relative;
+  /* position: relative; */
+  position: fixed;
   user-select: none;
 }
 
@@ -72,7 +73,8 @@
   background: #333;
   display: block;
   height: 2px;
-  position: relative;
+  /* position: relative; */
+  position: fixed;
   transition: background 0.2s ease-out;
   width: 18px;
 }
