@@ -7,6 +7,7 @@ import Skills from "../../containers/skills/Skills";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import "../../typewriter.css";
+import SkillsAndFeatured from "../NewTechAndFeatured/SkillsAndFeatured";
 
 function Home(props) {
   const ref4 = useRef(null);
@@ -18,6 +19,11 @@ function Home(props) {
       {/* <Header theme={this.props.theme} /> */}
       <div style={{ margin: "200px 0 200px 0" }}></div>
       <Greeting ref4={ref4} theme={props.theme} />
+
+      {/* <SkillsAndFeatured theme={props.theme} /> */}
+
+      <Skills theme={props.theme} />
+
       <div style={{ margin: "200px 0 200px 0" }}></div>
       {/* <hr style={{"margin":"200px 0 200px 0"}}></hr> */}
       <Education ref={ref2} theme={props.theme} />

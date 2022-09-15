@@ -15,7 +15,7 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import PublicationData from "../../shared/opensource/publications.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
-
+import myGithubRepoCard from "../../components/githubRepoCard/myGithubRepoCard";
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
@@ -60,13 +60,14 @@ class Projects extends Component {
           {ProjectsData.featuredProjects.map((repo) => {
             return (
               <div>
+                {/* <GithubRepoCard repo={repo} theme={theme} /> */}
                 <GithubRepoCard repo={repo} theme={theme} />
                 <br></br>
               </div>
             );
           })}
-          {/* unfeatured */}
         </div>
+        {/* unfeatured */}
         <h1 className="publications-heading-text" style={{ color: theme.text }}>
           More Projects
         </h1>

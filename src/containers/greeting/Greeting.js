@@ -60,7 +60,7 @@ export default function Greeting(props) {
           </div>
         </div>
       </div>
-      <Skills theme={theme} />
+      {/* <Skills theme={theme} /> */}
     </Fade>
   );
 }

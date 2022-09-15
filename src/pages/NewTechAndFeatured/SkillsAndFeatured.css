@@ -1,0 +1,10 @@
+.skills-and-featured-main {
+  display: flex;
+}
+
+@media (max-width: 1380px) {
+  .skills-and-featured-main {
+    display: block;
+    text-align: center;
+  }
+}

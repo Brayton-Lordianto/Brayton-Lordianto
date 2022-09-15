@@ -595,7 +595,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My motive for projects is and always have been to create something that has potential to solve problems. It's a little cliche, but is an often overlooked factor of project ideation. Because I learn my best when doing, I like to push myself to use new technologies in projects to get familiar with them. Projects include personal and hackathon projects. Click on a project to learn more about it!",
+    "My motive for projects is and always have been to create something that solves problems. I learn my best when doing, so I push myself to use new technologies in projects. Projects include personal and hackathon projects.",
   avatar_image_path: "projects_image.svg",
 };
 
