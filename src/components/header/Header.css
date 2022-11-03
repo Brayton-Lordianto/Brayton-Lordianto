@@ -1,6 +1,4 @@
-/* header */
-
-.header {
+header .header {
   display: block;
   max-width: 90%;
   padding: 20px 10px;
@@ -25,12 +23,11 @@
   text-decoration: none;
 }
 
-.header li a:hover,
+/* .header li a:hover,
 .header .menu-btn:hover {
   /* background-color: #A6E1FA; */
-}
-
-.header .logo {
+/* } */
+*/ .header .logo {
   display: block;
   float: left;
   font-size: 1.5em;
@@ -104,15 +101,15 @@
   display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
+/* .header .menu-btn:checked ~ .menu {
   max-height: 370px;
-}
+} */
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+/* .header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
-}
+} */
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+/* .header .menu-btn:checked ~ .menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
 
@@ -123,7 +120,7 @@
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
-}
+} */
 
 /* 48em = 768px */
 

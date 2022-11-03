@@ -88,7 +88,7 @@ class Projects extends Component {
           text={"View All Hackathon Projects on Devpost"}
           className="project-button"
           style={{ display: "flex" }}
-          href={greeting.githubProfile}
+          href={greeting.devpostProfile}
           newTab={true}
           theme={theme}
         />

@@ -25,13 +25,14 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "",
-  githubProfile: "https://github.com/BritnessDev",
+  githubProfile: "https://github.com/Brayton-Lordianto",
+  devpostProfile: "https://devpost.com/bl3321",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Brayton-Lordianto",
+    link: greeting.githubProfile,
     fontAwesomeIcon: "fab fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
