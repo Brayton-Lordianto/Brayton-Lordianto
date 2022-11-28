@@ -127,6 +127,8 @@ header .header {
 @media (min-width: 48em) {
   .header li {
     float: left;
+    line-height: 50px;
+    padding-top: 20px;
   }
   .header {
     display: flex;
