@@ -62,7 +62,7 @@ header .header {
   float: right;
   padding: 28px 20px;
   /* position: relative; */
-  position: fixed;
+  position: sticky;
   user-select: none;
 }
 
@@ -71,7 +71,7 @@ header .header {
   display: block;
   height: 2px;
   /* position: relative; */
-  position: fixed;
+  position: sticky;
   transition: background 0.2s ease-out;
   width: 18px;
 }
