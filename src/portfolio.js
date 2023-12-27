@@ -319,7 +319,7 @@ const degrees = {
       alt_name: "NYU",
       duration: "2021 - Present",
       descriptions: [
-        "📚 CS/Math Courses: Data Structures, Database Design and Implementation, Object-Oriented Programming, Discrete Mathematics, Linear Algebra, Computer Organization",
+        "📚 CS/Math Courses: Data Structures, Database Design and Implementation, Object-Oriented Programming, Discrete Mathematics, Linear Algebra, Computer Organization, Parallel Computing, Operating Systems, Computer Security, Theory of Computing, Programming Languages (Graduate), Computer Graphics",
         "🗽 Liberal Studies/General Education Courses: Writing as Exploration I and II, Arts and Cultures I and II and III, Global Works and Society I, II, and III",
         "⚡ CS Activities: Technical Chair for HackNYU Development Team, Research Assistant for BiLab (working in Python), iOS leader/developer at AR Library VIP Team (20+ students), Treasurer/Organizer at Competitive Programming Club ",
         "🤸‍♂️ Other activities: Professional Development Event Organizer at PERMIAS (Indonesian Student Association) NYC, Freshman Representative and Event Organizer at Indonesian Student Association NYU, NYU Table-Tennis Team, Recreational Chess Club (ELO: 1300 - 5 min, 1600 - 1 min)",
