@@ -1,7 +1,7 @@
-# to redo
+# Build to Production
 
-- Run npm run build to generate the production build folder.
-- Enter the build folder, git init and push the generated code to the master branch of your new repository on github. That's it. It's Done.
-- You may need to git init and force push at every new build.
+`npm run deploy`
 
-* Nevermind. The code for github pages is stored in the deploy of package.json. thus, call npm run deploy.
+# Previous Issues
+
+- CSS Minimizer Issue. To fix, look at which CSS file has a problematic slash character. You can do so by checking out to each commit until you find where went wrong.
