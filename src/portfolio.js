@@ -18,6 +18,8 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Brayton Lordianto",
+  websiteLastUpdated: "2024-01-11",
+  websitePreviouslyUpdated: "2022-03-11",
   logo_name: "",
   nickname: "#BrayLord",
   subTitle:
