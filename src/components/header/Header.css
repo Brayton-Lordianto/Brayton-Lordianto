@@ -27,7 +27,7 @@ header .header {
 .header .menu-btn:hover {
   /* background-color: #A6E1FA; */
 /* } */
-*/ .header .logo {
+.header .logo {
   display: block;
   float: left;
   font-size: 1.5em;
