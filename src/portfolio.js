@@ -21,7 +21,7 @@ const greeting = {
   logo_name: "",
   nickname: "#BrayLord",
   subTitle:
-    "2nd Year Computer Science Student at New York University | Web and Mobile Developer",
+    "2nd Year Computer Science Student at New York University | Web, Mobile, and AR/VR/Computer Graphics Developer",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "",
@@ -139,6 +139,39 @@ const skills = {
         {
           skillName: "Java",
           fontAwesomeClassname: "logos:java",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          // webgl
+          skillName: "WebGL",
+          fontAwesomeClassname: "simple-icons:webgl",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          // metal
+          skillName: "Metal",
+          fontAwesomeClassname: "file-icons:metal",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          // webxr
+          skillName: "WebXR",
+          fontAwesomeClassname: "null",
+          style: {
+            color: "#61DAFB",
+          },
+          logo_path: "webxr.png",
+        },
+        {
+          // unity
+          skillName: "Unity and C#",
+          fontAwesomeClassname: "simple-icons:unity",
           style: {
             color: "#61DAFB",
           },

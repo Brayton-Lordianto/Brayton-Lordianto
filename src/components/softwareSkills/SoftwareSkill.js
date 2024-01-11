@@ -1,6 +1,28 @@
 import React from "react";
 import "./SoftwareSkill.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
+
+function test(logo) {
+  if (logo.logo_path !== undefined)
+    return (
+      <img
+        src={require(`../../assests/images/${logo.logo_path}`)}
+        alt=""
+        style={logo.style}
+        className="iconify hover-glow skillimage disableFilter"
+      />
+    );
+  else
+    return (
+      <span
+        className="iconify hover-glow"
+        data-icon={logo.fontAwesomeClassname}
+        style={logo.style}
+        data-inline="false"
+      ></span>
+    );
+}
+
 class SoftwareSkill extends React.Component {
   render() {
     return (
@@ -26,12 +48,17 @@ class SoftwareSkill extends React.Component {
                   }
                 >
                   <li className="software-skill-inline" name={logo.skillName}>
-                    <span
+                    {
+                      // if (true) {
+                      test(logo)
+                      // }
+                    }
+                    {/* <span
                       className="iconify hover-glow"
                       data-icon={logo.fontAwesomeClassname}
                       style={logo.style}
                       data-inline="false"
-                    ></span>
+                    ></span> */}
                   </li>
                 </OverlayTrigger>
               );

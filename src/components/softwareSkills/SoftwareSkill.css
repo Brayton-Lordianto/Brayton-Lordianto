@@ -5,6 +5,8 @@
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
+  /* this will make the things in the center */
+  justify-content: center;
 }
 
 .software-skill-inline {
@@ -25,4 +27,12 @@
 
 .software-skill-inline > i:hover {
   color: #645beb;
+}
+
+.skillimage {
+  width: 48px;
+}
+
+.disableFilter {
+  filter: none;
 }

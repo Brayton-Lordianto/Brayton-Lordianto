@@ -152,6 +152,24 @@
   "featuredProjects": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Computer Graphics Course Assignments",
+      "createdAt": "September - December 2023",
+      "url": "https://cims.nyu.edu/~bl3321/graphics",
+      "description": "My beginning in computer graphics -- my current interest in computer science.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-swift"
+        },
+        {
+          "name": "WebGL",
+          "iconifyClass": "simple-icons:webgl"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Worktime Tracker",
       "createdAt": "May 2020 - February 2021",
       "url": "https://github.com/Brayton-Lordianto/Worktime-Tracker",

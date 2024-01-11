@@ -20,9 +20,8 @@ function GetSkillSvg(props) {
 
 class SkillSection extends Component {
   render() {
-    const theme = this.props.theme;
     return (
-      <div style={{ textAlign: "center" }}>
+      <center>
         {skills.data.map((skill) => {
           return (
             <div className="skills-main-div">
@@ -34,7 +33,7 @@ class SkillSection extends Component {
             </div>
           );
         })}
-      </div>
+      </center>
     );
   }
 }
