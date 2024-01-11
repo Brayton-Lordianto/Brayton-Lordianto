@@ -1,6 +1,7 @@
 import React, { Component, useEffect, useRef, useState } from "react";
 import Header from "../../components/header/Header";
 import Greeting from "../../containers/greeting/Greeting";
+import Experience from "../experience/Experience";
 import Education from "../education/EducationComponent";
 import Projects from "../projects/ProjectsV2";
 import Skills from "../../containers/skills/Skills";
@@ -19,26 +20,16 @@ function Home(props) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      {/* <MyHeader
-        theme={props.theme}
-        homeRef={homeRef}
-        educationRef={educationRef}
-        projectsRef={projectsRef}
-      /> */}
       <div style={{ margin: "200px 0 200px 0" }}></div>
       <section></section>
       <section>
         <Greeting reference={homeRef} theme={props.theme} />
-
-        {/* <SkillsAndFeatured theme={props.theme} /> */}
-
         <Skills theme={props.theme} />
-
         <div style={{ margin: "200px 0 200px 0" }}></div>
-        {/* <hr style={{"margin":"200px 0 200px 0"}}></hr> */}
+        <Experience theme={props.theme} />
+        <div style={{ margin: "200px 0 200px 0" }}></div>
         <Education theme={props.theme} reference={educationRef} />
         <div style={{ margin: "200px 0 200px 0" }}></div>
-        {/* <hr style={{"margin":"200px 0 200px 0"}}></hr> */}
         <Projects theme={props.theme} reference={projectsRef} />
         <div style={{ margin: "200px 0 200px 0" }}></div>
       </section>
