@@ -40,6 +40,8 @@
     "styletron-react": "^5.2.7"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.23.4",
     "@iconify/icons-logos": "^1.0.9",
     "@iconify/react": "^1.1.4",
     "gh-pages": "^4.0.0",
