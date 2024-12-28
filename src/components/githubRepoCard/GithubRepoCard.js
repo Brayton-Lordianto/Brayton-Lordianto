@@ -15,8 +15,15 @@ export default function GithubRepoCard({ repo, theme }) {
       e.currentTarget.style.webkitLineClamp !== "100" ? 100 : 2;
   }
 
+  let cardBackgroundColor = theme.cardBackground
+    ? theme.cardBackground
+    : theme.highlight;
+
   return (
-    <div className="repo-card-div" style={{ backgroundColor: theme.highlight }}>
+    <div
+      className="repo-card-div"
+      style={{ backgroundColor: cardBackgroundColor }}
+    >
       <Fade bottom duration={2000} distance="40px">
         {/* <div key={repo.id} onClick={() => openRepoinNewTab(repo.url)}> */}
         <div key={repo.id}>

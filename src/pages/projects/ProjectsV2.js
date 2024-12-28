@@ -15,6 +15,12 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import PublicationData from "../../shared/opensource/publications.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+
+// different sections of projects
+import FeaturedProjects from "./projectSections/featuredProjects.js";
+import HackathonProjects from "./projectSections/hackathonProjects.js";
+import ComputerVisionProjects from "./projectSections/computerVisionProjects.js";
+
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
@@ -48,33 +54,10 @@ class Projects extends Component {
         </div>
 
         {/* the cards */}
-        {/* featured */}
-        <div className="repo-cards-div-main-unflexed">
-          <h1
-            className="publications-heading-text"
-            style={{ color: theme.text }}
-          >
-            🌟 Featured 🌟
-          </h1>
-          {ProjectsData.featuredProjects.map((repo) => {
-            return (
-              <div>
-                {/* <GithubRepoCard repo={repo} theme={theme} /> */}
-                <GithubRepoCard repo={repo} theme={theme} />
-                <br></br>
-              </div>
-            );
-          })}
-        </div>
-        {/* unfeatured */}
-        <h1 className="publications-heading-text" style={{ color: theme.text }}>
-          More Projects
-        </h1>
-        <div className="repo-cards-div-main">
-          {ProjectsData.unfeaturedProjects.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
-        </div>
+        <FeaturedProjects theme={theme} />
+        <HackathonProjects theme={theme} />
+        <ComputerVisionProjects theme={theme} />
+
         <Button
           text={"View All Repositories on Github"}
           className="project-button"

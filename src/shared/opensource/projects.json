@@ -1,4 +1,51 @@
 {
+  "computerVisionProjects": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Images of the Russian Empire: Pixels",
+      "createdAt": "2023-10-01",
+      "url": "https://brayton-lordianto.github.io/Computer-Vision-Sites/project1/web.html",
+      "description": "This project involves aligning separate RGB channels of an image to create a cohesive RGB image. Techniques used include Normalized Cross Correlation and Gaussian Pyramid.",
+      "isFork": false,
+      "imagePath": "computerVisionProject1.png"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Multiresolution Blending",
+      "createdAt": "2023-10-02",
+      "url": "https://brayton-lordianto.github.io/Computer-Vision-Sites/project2/web.html",
+      "description": "This project explores convolutional filters and image frequencies for edge detection, blurring, sharpening, morphing, and multi-resolution blending. It demonstrates how frequencies can manipulate images and create blending effects, similar to those seen in movies and animations.",
+      "isFork": false,
+      "imagePath": "computerVisionProject2.png"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Face Morphing and Averaging with Delaunay Triangulation",
+      "createdAt": "2023-10-03",
+      "url": "https://brayton-lordianto.github.io/Computer-Vision-Sites/project3/",
+      "description": "This project is about computer vision and image processing tasks on human faces, particularly face warping, face morphing, and face averaging. It involves defining correspondences, computing the 'mid-way face', creating a morphing sequence, computing the 'mean face' of a population, and creating caricatures.",
+      "isFork": false,
+      "imagePath": "computerVisionProject3.gif"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Automatic Image Alignment and Panorama Stitching",
+      "createdAt": "2023-10-04",
+      "url": "https://brayton-lordianto.github.io/Computer-Vision-Sites/project4/",
+      "description": "This project involves taking several pictures of the same scene from different perspectives and automating the correspondence selection for image alignment. It includes detecting features, filtering them, matching features between images, computing homography, warping images, and blending them together.",
+      "isFork": false,
+      "imagePath": "computerVisionProject4.png"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Diffusion Models Implementation",
+      "createdAt": "2023-10-05",
+      "url": "https://brayton-lordianto.github.io/Computer-Vision-Sites/project5/",
+      "description": "This project is about playing with diffusion models, implementing diffusion sampling loops, and exploring the power of diffusion models. In the second part, we go deeper into the architecture of the diffusion model by implementing a unet and ddpm (Denoising Diffusion Probabilistic Models) from scratch. A denoising diffusion model is essentially a UNet. We can implement a UNet from scratch. The UNet is a neural network that takes an image and predicts the noise to add to the image to denoise it.",
+      "isFork": false,
+      "imagePath": "computerVisionProject5.png"
+    }
+  ],
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
@@ -152,24 +199,6 @@
   "featuredProjects": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Computer Graphics Course Assignments",
-      "createdAt": "September - December 2023",
-      "url": "https://cims.nyu.edu/~bl3321/graphics",
-      "description": "My beginning in computer graphics -- my current interest in computer science.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-swift"
-        },
-        {
-          "name": "WebGL",
-          "iconifyClass": "simple-icons:webgl"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Worktime Tracker",
       "createdAt": "May 2020 - February 2021",
       "url": "https://github.com/Brayton-Lordianto/Worktime-Tracker",
@@ -239,8 +268,7 @@
       ]
     }
   ],
-  "icons": "https://icon-sets.iconify.design/?query=swift",
-  "unfeaturedProjects": [
+  "hackathonProjects": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
       "name": "StudyBud",
@@ -261,7 +289,8 @@
           "name": "Firebase",
           "iconifyClass": "logos:firebase"
         }
-      ]
+      ],
+      "imagePath": "a.png"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
@@ -348,6 +377,7 @@
       ]
     }
   ],
+  "icons": "https://icon-sets.iconify.design/?query=swift",
   "unflexed-data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",

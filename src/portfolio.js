@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "",
   nickname: "#BrayLord",
   subTitle:
-    "Graduating Masters of Computer Science (EECS) Student at UC Berkeley | Web, Mobile, and AR/VR/Computer Graphics Developer",
+    "Graduating Masters of Computer Science Student at UC Berkeley | Web, Mobile, and AR/VR/Computer Graphics Developer",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository:
@@ -349,11 +349,25 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
+      title: "University of California, Berkeley (UC Berkeley)",
+      subtitle:
+        "Masters of Engineering, Electrical Engineering and Computer Science (EECS), Concentration in Visual Computing and Computing Graphics",
+      logo_path: "berkeley_logo_golden_dark.png",
+      alt_name: "Cal",
+      duration: "2024 - 2025",
+      descriptions: [
+        "🤖 Notable Courses: Machine Learning (289A, Fall ver.), Computer Vision and Computational Photography (280A, 280), Parallel Computers (267), Computer Graphics (284A)",
+        "⭐ Awards: $20,000 Fung Excellence Schlarship",
+      ],
+      website_link: "http://berkeley.edu",
+    },
+    {
       title: "New York University (NYU)",
-      subtitle: "B.S in Computer Science, GPA: 4.0/4.0, Dean's List 2021-2022",
+      subtitle:
+        "Bachelors in Computer Science, GPA: 4.0/4.0, Dean's List 2021-2022",
       logo_path: "nyu_logo_dark.png",
       alt_name: "NYU",
-      duration: "2021 - Present",
+      duration: "2021 - 2024",
       descriptions: [
         "📚 CS/Math Courses: Data Structures, Database Design and Implementation, Object-Oriented Programming, Discrete Mathematics, Linear Algebra, Computer Organization, Parallel Computing, Operating Systems, Computer Security, Theory of Computing, Programming Languages (Graduate), Computer Graphics",
         "🗽 Liberal Studies/General Education Courses: Writing as Exploration I and II, Arts and Cultures I and II and III, Global Works and Society I, II, and III",
@@ -502,6 +516,22 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Vision Products Group - Messages SWE Intern",
+          company: "Apple",
+          company_url: "https://www.apple.com/",
+          logo_path: "apple_logo.jpg",
+          duration: "May 2024 - Sept 2024",
+          location: "Sunnyvale, California",
+          description:
+            "I worked directly on the Messages app on the Vision Pro and iOS teams used by over 1.3 BILLION USERS. I implemented new features and fixed bugs in the app.",
+          color: "#ee3c26",
+        },
+      ],
+    },
+    {
+      title: "Internships",
+      experiences: [
+        {
           title: "Vision Products Group - Software Engineer Intern",
           company: "Apple",
           company_url: "https://www.apple.com/",
@@ -509,7 +539,7 @@ const experience = {
           duration: "May 2023 - Sept 2023",
           location: "Sunnyvale, California",
           description:
-            "(Signed an NDA) I created an internally shipped Vision Pro visual application using RealityKit, other Swift frameworks, and Metal.",
+            "I created an internally shipped Vision Pro visual application using RealityKit, other Swift frameworks, and Metal.",
           color: "#ee3c26",
         },
       ],
