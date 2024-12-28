@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.d5ed27f5.css",
-    "main.js": "./static/js/main.f9b5a964.js",
+    "main.css": "./static/css/main.28bfc594.css",
+    "main.js": "./static/js/main.8ffd543b.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
+    "static/media/computerVisionProject1.png": "./static/media/computerVisionProject1.9d7386ef78adf911eaaa.png",
+    "static/media/computerVisionProject3.gif": "./static/media/computerVisionProject3.566488d6513d093bb6a4.gif",
+    "static/media/computerVisionProject4.png": "./static/media/computerVisionProject4.7ca5066c73921b18b210.png",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
+    "static/media/computerVisionProject2.png": "./static/media/computerVisionProject2.0254130ae60742fcb431.png",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
+    "static/media/berkeley_logo_golden_dark.png": "./static/media/berkeley_logo_golden_dark.cbb508b0f03e97533b91.png",
+    "static/media/computerVisionProject5.png": "./static/media/computerVisionProject5.5e7834936b4c67fccd8b.png",
     "static/media/Montserrat-Regular.ttf": "./static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/dsc_logo.png": "./static/media/dsc_logo.fdf993910e3f48d0cf30.png",
     "static/media/fa-solid-900.eot": "./static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
@@ -12,6 +18,7 @@
     "static/media/fa-regular-400.svg": "./static/media/fa-regular-400.4e8f9fa44f7ec7479c39.svg",
     "static/media/fa-brands-400.eot": "./static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
     "static/media/fa-brands-400.ttf": "./static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
+    "static/media/a.png": "./static/media/a.f34ac110503a36b9f125.png",
     "static/media/animated_ashutosha.png": "./static/media/animated_ashutosha.f34ac110503a36b9f125.png",
     "static/media/GoogleSans-Italic.ttf": "./static/media/GoogleSans-Italic.40bb50bd202405745006.ttf",
     "static/media/GoogleSans-MediumItalic.ttf": "./static/media/GoogleSans-MediumItalic.56d4f777a7997e5a10b3.ttf",
@@ -25,6 +32,7 @@
     "static/media/Agustina.woff": "./static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/ibm_logo.png": "./static/media/ibm_logo.8204bba7daa4eedf644b.png",
     "static/media/fa-brands-400.woff": "./static/media/fa-brands-400.dc957891d535aa198135.woff",
+    "static/media/image.png": "./static/media/image.38dd9d55999d5a36c47d.png",
     "static/media/codeInLogo.png": "./static/media/codeInLogo.be1b6b9bacd5f2fb1c7e.png",
     "static/media/stanford_logo.png": "./static/media/stanford_logo.de5f29dece094f7bec60.png",
     "static/media/animated_logo.svg": "./static/media/animated_logo.abd0b20ec83cb1f60d42.svg",
@@ -63,11 +71,11 @@
     "static/media/googleAssistant.svg": "./static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.d5ed27f5.css.map": "./static/css/main.d5ed27f5.css.map",
-    "main.f9b5a964.js.map": "./static/js/main.f9b5a964.js.map"
+    "main.28bfc594.css.map": "./static/css/main.28bfc594.css.map",
+    "main.8ffd543b.js.map": "./static/js/main.8ffd543b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5ed27f5.css",
-    "static/js/main.f9b5a964.js"
+    "static/css/main.28bfc594.css",
+    "static/js/main.8ffd543b.js"
   ]
 }
