@@ -96,6 +96,17 @@
   margin-right: 0px;
 }
 
+/* added for hover */
+.repo-card-div {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.repo-card-div:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+/* ---------------- */
+
 @media (max-width: 1200px) {
   .repo-card-div {
     flex: 1 1 40%;

@@ -15,7 +15,6 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import PublicationData from "../../shared/opensource/publications.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
-import myGithubRepoCard from "../../components/githubRepoCard/myGithubRepoCard";
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
