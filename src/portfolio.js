@@ -18,15 +18,16 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Brayton Lordianto",
-  websiteLastUpdated: "2024-01-11",
-  websitePreviouslyUpdated: "2022-03-11",
+  websiteLastUpdated: "2024-12-28",
+  websitePreviouslyUpdated: "2024-01-11",
   logo_name: "",
   nickname: "#BrayLord",
   subTitle:
-    "2nd Year Computer Science Student at New York University | Web, Mobile, and AR/VR/Computer Graphics Developer",
+    "Graduating Masters of Computer Science (EECS) Student at UC Berkeley | Web, Mobile, and AR/VR/Computer Graphics Developer",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "",
+  portfolio_repository:
+    "https://github.com/Brayton-Lordianto/Brayton-Lordianto.git",
   githubProfile: "https://github.com/Brayton-Lordianto",
   devpostProfile: "https://devpost.com/bl3321",
 };
