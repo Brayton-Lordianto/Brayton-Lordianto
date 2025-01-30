@@ -71,20 +71,8 @@
 }
 
 @media (max-width: 768px) {
-  .main {
-    width: 100%;
-  }
   .greet-main {
     width: 100%;
-  }
-
-  .gretting-main {
-    width: 100%;
-  }
-
-  .text-content {
-    width: 100%;
-    max-width: 600px; /* adjust as needed */
   }
 
   .greeting-text {
@@ -99,27 +87,19 @@
     text-align: left;
   }
 
-  .greeting-text-p,
-  .subTitle {
-    font-size: 16px;
-    text-align: left;
-    line-height: normal;
+  .greeting-text-p {
+    font-size: 20px !important;
   }
 
-  .social-media-div {
-    scale: 1;
-  }
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
   }
 
   .greeting-main {
     display: flex;
     flex-direction: column-reverse;
-    width: 40%;
   }
 
   .greeting-image-div {

@@ -1,17 +1,12 @@
 import React, { Component, useEffect, useRef, useState } from "react";
-import Header from "../../components/header/Header";
 import Greeting from "../../containers/greeting/Greeting";
 import Experience from "../experience/Experience";
 import Education from "../education/EducationComponent";
 import Projects from "../projects/ProjectsV2";
 import Skills from "../../containers/skills/Skills";
-import Footer from "../../components/footer/Footer";
-import TopButton from "../../components/topButton/TopButton";
 import "../../typewriter.css";
-import SkillsAndFeatured from "../NewTechAndFeatured/SkillsAndFeatured";
 import MyHeader from "../../components/header/myHeader";
-import myHeader2 from "../../components/header/myHeader2";
-import MyHeader3 from "../../components/header/myHeader3";
+import "./HomeComponent.css";
 
 function Home(props) {
   const homeRef = useRef();
@@ -19,7 +14,7 @@ function Home(props) {
   const projectsRef = useRef();
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div className="homeDiv">
       <div style={{ margin: "200px 0 200px 0" }}></div>
       <section></section>
       <section>

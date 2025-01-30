@@ -4,7 +4,8 @@ import Home from "../pages/home/HomeComponent";
 export default class Main extends Component {
   render() {
     return (
-      <div>
+      // make width 10%
+      <div style={{ width: "100%" }}>
         <HashRouter basename="/">
           <Switch>
             <Route
