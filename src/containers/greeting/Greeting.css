@@ -55,6 +55,11 @@
   height: auto;
 }
 
+.greeting-image-inner-div {
+  display: "flex";
+  flex-direction: "column";
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
@@ -64,29 +69,46 @@
     font-size: 20px;
   }
 }
+
 @media (max-width: 768px) {
-  .button-greeting-div {
-    justify-content: space-around;
+  .main {
+    width: 100%;
   }
+  .greet-main {
+    width: 100%;
+  }
+
+  .gretting-main {
+    width: 100%;
+  }
+
+  .text-content {
+    width: 100%;
+    max-width: 600px; /* adjust as needed */
+  }
+
   .greeting-text {
     font-size: 25px;
     margin-top: 0px;
     text-align: center;
+    margin-left: 40px !important;
+    margin-bottom: 40px !important;
   }
   .greeting-nickname {
     font-size: 20px;
-    text-align: center;
-  }
-  .greeting-text-p {
-    font-size: 16px;
-    margin-right: 0px;
-    line-height: normal;
-    text-align: center;
-  }
-  .greeting-main {
-    display: block;
+    text-align: left;
   }
 
+  .greeting-text-p,
+  .subTitle {
+    font-size: 16px;
+    text-align: left;
+    line-height: normal;
+  }
+
+  .social-media-div {
+    scale: 1;
+  }
   img {
     display: block;
     margin-left: auto;
@@ -94,9 +116,13 @@
     width: 30%;
   }
 
-  .portfolio-repo-btn-div {
-    width: 100%;
+  .greeting-main {
     display: flex;
-    justify-content: center;
+    flex-direction: column-reverse;
+    width: 40%;
+  }
+
+  .greeting-image-div {
+    text-align: left;
   }
 }

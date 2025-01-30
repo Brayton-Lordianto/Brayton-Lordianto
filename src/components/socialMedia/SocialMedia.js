@@ -32,7 +32,6 @@ export default function socialMedia(props) {
                 style={{ border: "1px solid yellow" }}
               ></i>
             </IconWrapper>
-            {/* <span></span> */}
           </a>
         );
       })}
