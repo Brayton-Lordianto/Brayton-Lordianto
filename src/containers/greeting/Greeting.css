@@ -97,6 +97,12 @@
     margin-right: auto;
   }
 
+  .social-media-div {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
   .greeting-main {
     display: flex;
     flex-direction: column-reverse;
