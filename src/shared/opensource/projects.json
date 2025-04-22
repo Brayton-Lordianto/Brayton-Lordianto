@@ -1,4 +1,77 @@
 {
+  "additionalProjects": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Worktime Tracker",
+      "createdAt": "May 2020 - February 2021",
+      "url": "https://github.com/Brayton-Lordianto/Worktime-Tracker",
+      "description": "Created during the start of the COVID-19 pandemic. A worktime tracking app for employees of the client that saved 3+ days/month of the client's time. The project was also submitted as the Internal Assessment for my International Baccalaureate Computer Science course (received a score of 7 over 7).",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Swift + SwiftUI",
+          "iconifyClass": "logos-swift"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Youtube-Sumarizr",
+      "createdAt": "Aug 2022 (team of 4)",
+      "url": "https://devpost.com/software/summarizr-hczls7",
+      "description": "Submitted to PeddieHacks 2022 ($1000-cash Passion Prize and Best Education Track). This project allows users (intended to be students or teachers) to get auto-chapters or summaries of any youtube video. They can then choose to ask a ML bot questions about these chapters and get answers. This allows students to absorb content fast and easily.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconifyClass": "logos-tailwindcss-icon"
+        },
+        {
+          "name": "Tensorflow (BERT)",
+          "iconifyClass": "logos-tensorflow"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=",
+      "name": "Trash-ure Map",
+      "createdAt": "July 2022 (team of 4)",
+      "url": "https://devpost.com/software/healthmedia",
+      "description": "Won First Place in FiveHacks, Second Place in MergeHacks and Data Grind Hacks. A social media app for litter. Users post litter they've found online. Google Cloud Vision identifies the product (such as a Coca-cola can) and stores it in the database along with the location it is found. A crowdmap of the found data in respective regions is publicly provided, with the intention of being proof of litter and to hold companies like Coca-cola accountable for their litter.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Leaflet/Folium UI",
+          "iconifyClass": "logos-leaflet"
+        },
+        {
+          "name": "Python and Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "Google Cloud",
+          "iconifyClass": "logos:google-cloud"
+        },
+        {
+          "name": "SQL",
+          "iconifyClass": "vscode-icons:file-type-plsql"
+        }
+      ]
+    }
+  ],
+  "computerGraphicsProjects": [],
   "computerVisionProjects": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
@@ -173,78 +246,6 @@
       "id": "MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=",
       "name": "Trash-ure Map",
       "createdAt": "2019-04-18T17:25:51Z",
-      "url": "https://devpost.com/software/healthmedia",
-      "description": "Won First Place in FiveHacks, Second Place in MergeHacks and Data Grind Hacks. A social media app for litter. Users post litter they've found online. Google Cloud Vision identifies the product (such as a Coca-cola can) and stores it in the database along with the location it is found. A crowdmap of the found data in respective regions is publicly provided, with the intention of being proof of litter and to hold companies like Coca-cola accountable for their litter.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Leaflet/Folium UI",
-          "iconifyClass": "logos-leaflet"
-        },
-        {
-          "name": "Python and Flask",
-          "iconifyClass": "logos-flask"
-        },
-        {
-          "name": "Google Cloud",
-          "iconifyClass": "logos:google-cloud"
-        },
-        {
-          "name": "SQL",
-          "iconifyClass": "vscode-icons:file-type-plsql"
-        }
-      ]
-    }
-  ],
-  "featuredProjects": [
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Worktime Tracker",
-      "createdAt": "May 2020 - February 2021",
-      "url": "https://github.com/Brayton-Lordianto/Worktime-Tracker",
-      "description": "Created during the start of the COVID-19 pandemic. A worktime tracking app for employees of the client that saved 3+ days/month of the client's time. The project was also submitted as the Internal Assessment for my International Baccalaureate Computer Science course (received a score of 7 over 7).",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Swift + SwiftUI",
-          "iconifyClass": "logos-swift"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Youtube-Sumarizr",
-      "createdAt": "Aug 2022 (team of 4)",
-      "url": "https://devpost.com/software/summarizr-hczls7",
-      "description": "Submitted to PeddieHacks 2022 ($1000-cash Passion Prize and Best Education Track). This project allows users (intended to be students or teachers) to get auto-chapters or summaries of any youtube video. They can then choose to ask a ML bot questions about these chapters and get answers. This allows students to absorb content fast and easily.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "React",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Flask",
-          "iconifyClass": "logos-flask"
-        },
-        {
-          "name": "Tailwind CSS",
-          "iconifyClass": "logos-tailwindcss-icon"
-        },
-        {
-          "name": "Tensorflow (BERT)",
-          "iconifyClass": "logos-tensorflow"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=",
-      "name": "Trash-ure Map",
-      "createdAt": "July 2022 (team of 4)",
       "url": "https://devpost.com/software/healthmedia",
       "description": "Won First Place in FiveHacks, Second Place in MergeHacks and Data Grind Hacks. A social media app for litter. Users post litter they've found online. Google Cloud Vision identifies the product (such as a Coca-cola can) and stores it in the database along with the location it is found. A crowdmap of the found data in respective regions is publicly provided, with the intention of being proof of litter and to hold companies like Coca-cola accountable for their litter.",
       "isFork": false,

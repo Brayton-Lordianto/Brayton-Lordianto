@@ -1,0 +1,12 @@
+.homeDiv {
+  /* style={{ display: "flex", flexDirection: "column" }} */
+  display: flex;
+  flex-direction: column;
+}
+
+/* in 768px, no flex */
+@media (max-width: 768px) {
+  .homeDiv {
+    display: block;
+  }
+}

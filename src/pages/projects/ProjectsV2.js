@@ -17,9 +17,10 @@ import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
 // different sections of projects
-import FeaturedProjects from "./projectSections/featuredProjects.js";
+import AdditionalProjects from "./projectSections/additionalProjects";
 import HackathonProjects from "./projectSections/hackathonProjects.js";
 import ComputerVisionProjects from "./projectSections/computerVisionProjects.js";
+import CollapsibleSection from "../../components/collapsibleSection/CollapsibleSection";
 
 class Projects extends Component {
   render() {
@@ -54,8 +55,10 @@ class Projects extends Component {
         </div>
 
         {/* the cards */}
-        <FeaturedProjects theme={theme} />
-        <HackathonProjects theme={theme} />
+        <CollapsibleSection>
+          <AdditionalProjects theme={theme} />
+          <HackathonProjects theme={theme} />
+        </CollapsibleSection>
         <ComputerVisionProjects theme={theme} />
 
         <Button
