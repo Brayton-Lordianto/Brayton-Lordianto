@@ -11,8 +11,9 @@ export default function GithubRepoCard({ repo, theme }) {
   }
 
   function toggleTextExpansion(e) {
-    e.currentTarget.style.webkitLineClamp =
-      e.currentTarget.style.webkitLineClamp !== "100" ? 100 : 2;
+    // Disabled to prevent auto-scrolling issues
+    // e.currentTarget.style.webkitLineClamp =
+    //   e.currentTarget.style.webkitLineClamp !== "100" ? 100 : 2;
   }
 
   let cardBackgroundColor = theme.cardBackground
@@ -52,7 +53,6 @@ export default function GithubRepoCard({ repo, theme }) {
             <p
               className="repo-description"
               style={{ color: "#1B4F50" }}
-              onClick={toggleTextExpansion}
             >
               {repo.description}
             </p>
@@ -73,6 +73,7 @@ export default function GithubRepoCard({ repo, theme }) {
               className="visit-button"
               href={repo.url}
               newTab={true}
+              isSpecial={repo.isSpecial}
             ></Button>
             <ProjectLanguages
               className="repo-languages"

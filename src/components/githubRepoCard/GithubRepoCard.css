@@ -6,7 +6,10 @@
   flex: 1 1 25%;
 }
 .repo-card-div:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  /* uncomment this for softer shadow */
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px; */
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
 }
 
 .repo-stats {
@@ -102,15 +105,14 @@
   will-change: transform, box-shadow, border;
   border: 1px solid transparent;
   border-radius: 8px;
+  min-height: 200px;
+  position: relative;
 }
 
 .repo-card-div:hover {
-  transform: translateY(-10px);
-  /* box-shadow: 0 0 8px rgba(3, 233, 244, 0.6),
-              0 0 20px rgba(3, 233, 244, 0.4),
-              0 0 40px rgba(3, 233, 244, 0.2); */
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
-    0 0 100px #03e9f4;
+  transform: translateY(-5px);
+  box-shadow: 0 0 8px rgba(3, 233, 244, 0.6), 0 0 20px rgba(3, 233, 244, 0.4),
+    0 0 40px rgba(3, 233, 244, 0.2);
   border: 1px solid #03e9f4;
 }
 /* ---------------- */

@@ -2,15 +2,28 @@
   "additionalProjects": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Worktime Tracker",
-      "createdAt": "May 2020 - February 2021",
-      "url": "https://github.com/Brayton-Lordianto/Worktime-Tracker",
-      "description": "Created during the start of the COVID-19 pandemic. A worktime tracking app for employees of the client that saved 3+ days/month of the client's time. The project was also submitted as the Internal Assessment for my International Baccalaureate Computer Science course (received a score of 7 over 7).",
+      "name": "HackNYU Home and 2024 Website",
+      "createdAt": "2023 - 2024",
+      "url": "https://hacknyu.org",
+      "description": "As Technical Director of HackNYU for 2023 and 2024, I led the development of our flagship website using React and integrated Mailchimp for seamless event management. The site features dynamic registration flows, sponsor showcases, and interactive elements that enhanced user engagement for 500+ hackathon participants.",
       "isFork": false,
+      "isSpecial": true,
       "languages": [
         {
-          "name": "Swift + SwiftUI",
-          "iconifyClass": "logos-swift"
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Mailchimp API",
+          "iconifyClass": "simple-icons:mailchimp"
+        },
+        {
+          "name": "CSS3",
+          "iconifyClass": "logos-css-3"
         }
       ]
     },
@@ -380,20 +393,6 @@
   ],
   "icons": "https://icon-sets.iconify.design/?query=swift",
   "unflexed-data": [
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Worktime Tracker",
-      "createdAt": "May 2020 - February 2021",
-      "url": "https://github.com/Brayton-Lordianto/Worktime-Tracker",
-      "description": "Created during the start of the COVID-19 pandemic. A worktime tracking app for employees of the client that saved 3+ days/month of the client's time. The project was also submitted as the Internal Assessment for my International Baccalaureate Computer Science course (received a score of 7 over 7).",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Swift + SwiftUI",
-          "iconifyClass": "logos-swift"
-        }
-      ]
-    },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Command-Line Adventure and Fantasy Game",

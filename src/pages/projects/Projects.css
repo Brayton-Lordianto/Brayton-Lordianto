@@ -66,13 +66,14 @@
 }
 
 .repo-cards-div-main-unflexed {
-  /* display: flex; */
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem 1rem;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 60px;
+  align-items: stretch;
 }
 
 .repo-cards-div-main {
