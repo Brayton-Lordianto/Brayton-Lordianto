@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, HashRouter } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 export default class Main extends Component {
   render() {
@@ -7,12 +7,9 @@ export default class Main extends Component {
       // make width 10%
       <div style={{ width: "100%" }}>
         <HashRouter basename="/">
-          <Switch>
-            <Route
-              path="/"
-              render={(props) => <Home {...props} theme={this.props.theme} />}
-            />
-          </Switch>
+          <Routes>
+            <Route path="/" element={<Home theme={this.props.theme} />} />
+          </Routes>
         </HashRouter>
       </div>
     );

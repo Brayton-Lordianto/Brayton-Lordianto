@@ -55,7 +55,11 @@ class Projects extends Component {
         </div>
 
         {/* the cards */}
-        <CollapsibleSection>
+        <CollapsibleSection
+          theme={theme}
+          title="Personal Projects"
+          defaultCollapsed={false}
+        >
           <AdditionalProjects theme={theme} />
           <HackathonProjects theme={theme} />
         </CollapsibleSection>

@@ -14,7 +14,11 @@ class ComputerVisionProjects extends Component {
     theme.cardBackground = "#E6E6E6";
 
     return (
-      <CollapsibleSection title="Computer Vision Projects" theme={theme}>
+      <CollapsibleSection
+        title="Computer Vision Projects"
+        theme={theme}
+        defaultCollapsed={true}
+      >
         <ProjectGrid
           repos={ProjectsData.computerVisionProjects}
           theme={theme}

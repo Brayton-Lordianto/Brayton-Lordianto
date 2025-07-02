@@ -11,7 +11,12 @@ class AdditionalProjects extends Component {
         <div className="repo-cards-div-main-unflexed">
           <h1
             className="publications-heading-text"
-            style={{ color: theme.text }}
+            style={{
+              color: theme.text,
+              margin: 0,
+              fontSize: "2rem",
+              fontWeight: "600",
+            }}
           >
             {/* 🌟 Featured 🌟 */}
             Web and Mobile Projects

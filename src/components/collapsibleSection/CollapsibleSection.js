@@ -4,10 +4,20 @@ const CollapsibleSection = ({
   title,
   children,
   theme,
-  defaultCollapsed = true,
+  defaultCollapsed = false,
   customStyles = {},
 }) => {
   const [isCollapsed, setIsCollapsed] = useState(defaultCollapsed);
+
+  // Default theme fallback
+  const defaultTheme = {
+    highlight: "#f0f0f0",
+    text: "#333",
+    secondaryText: "#666",
+    header: "#333",
+  };
+
+  const currentTheme = theme || defaultTheme;
 
   return (
     <div
@@ -16,7 +26,6 @@ const CollapsibleSection = ({
         margin: "2rem 0",
         borderRadius: "10px",
         overflow: "hidden",
-        backgroundColor: theme.highlight,
         ...customStyles.container,
       }}
     >
@@ -29,10 +38,9 @@ const CollapsibleSection = ({
           justifyContent: "space-between",
           alignItems: "center",
           padding: "1.5rem 2rem",
-          backgroundColor: theme.highlight,
           borderBottom: isCollapsed
             ? "none"
-            : `1px solid ${theme.secondaryText}20`,
+            : `1px solid ${currentTheme.secondaryText}20`,
           transition: "all 0.3s ease",
           ...customStyles.header,
         }}
@@ -40,9 +48,9 @@ const CollapsibleSection = ({
         <h1
           className="projects-heading-text"
           style={{
-            color: theme.header || theme.text,
+            color: currentTheme.header || currentTheme.text,
             margin: 0,
-            fontSize: "2rem",
+            fontSize: "2.5rem",
             fontWeight: "600",
             flex: 1,
             textAlign: "center",
@@ -54,7 +62,7 @@ const CollapsibleSection = ({
           style={{
             transition: "transform 0.3s ease",
             transform: isCollapsed ? "rotate(0deg)" : "rotate(180deg)",
-            color: theme.text,
+            color: "#868e96",
             fontSize: "1.5rem",
             marginLeft: "auto",
           }}
