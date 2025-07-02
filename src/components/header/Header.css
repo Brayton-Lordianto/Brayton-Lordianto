@@ -1,8 +1,12 @@
-header .header {
+.header {
   display: block;
-  max-width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+  backdrop-filter: blur(10px);
+  background: rgba(34, 34, 34, 0.95);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
 }
 
 .header ul {
@@ -18,15 +22,38 @@ header .header {
 
 .header li a {
   display: block;
-  padding: 20px 20px;
-  /* color: black; */
+  padding: 15px 25px;
   text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-/* .header li a:hover,
-.header .menu-btn:hover {
-  /* background-color: #A6E1FA; */
-/* } */
+.header li a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(7, 190, 184, 0.4);
+}
+
+.header li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(7, 190, 184, 0.2),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.header li a:hover::before {
+  left: 100%;
+}
 .header .logo {
   display: block;
   float: left;
@@ -67,32 +94,33 @@ header .header {
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #07beb8;
   display: block;
-  height: 2px;
-  /* position: relative; */
-  position: sticky;
-  transition: background 0.2s ease-out;
-  width: 18px;
+  height: 3px;
+  position: relative;
+  transition: background 0.3s ease-out;
+  width: 24px;
+  border-radius: 2px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #07beb8;
   content: "";
   display: block;
   height: 100%;
   position: absolute;
-  transition: all 0.2s ease-out;
+  transition: all 0.3s ease-out;
   width: 100%;
+  border-radius: 2px;
 }
 
 .header .menu-icon .navicon:before {
-  top: 5px;
+  top: 8px;
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  top: -8px;
 }
 
 /* menu btn */
@@ -125,18 +153,24 @@ header .header {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
-  .header li {
-    float: left;
-    line-height: 50px;
-    padding-top: 20px;
-  }
   .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 15px 0;
   }
   .header .menu {
     max-height: none;
+    display: flex;
+    background: transparent !important;
+  }
+  .header li {
+    float: none;
+    margin: 0 10px;
+  }
+  .header li a {
+    padding: 12px 20px;
+    font-weight: 500;
   }
   .header .menu-icon {
     display: none;

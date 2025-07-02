@@ -21,9 +21,9 @@ class AdditionalProjects extends Component {
             {/* 🌟 Featured 🌟 */}
             Web and Mobile Projects
           </h1>
-          {ProjectsData.additionalProjects.map((repo) => {
+          {ProjectsData.additionalProjects.map((repo, index) => {
             return (
-              <div key={repo.id}>
+              <div key={`additional-${repo.id}-${index}`}>
                 <GithubRepoCard repo={repo} theme={theme} />
                 <br />
               </div>

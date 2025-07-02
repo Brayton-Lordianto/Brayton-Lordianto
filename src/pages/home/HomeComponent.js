@@ -4,6 +4,7 @@ import Experience from "../experience/Experience";
 import Education from "../education/EducationComponent";
 import Projects from "../projects/ProjectsV2";
 import Skills from "../../containers/skills/Skills";
+import TopButton from "../../components/topButton/TopButton";
 import "../../typewriter.css";
 import MyHeader from "../../components/header/myHeader";
 import "./HomeComponent.css";
@@ -35,6 +36,7 @@ function Home(props) {
         educationRef={educationRef}
         projectsRef={projectsRef}
       />
+      <TopButton theme={props.theme} />
     </div>
   );
 }

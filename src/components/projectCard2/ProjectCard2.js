@@ -97,8 +97,12 @@ const ProjectCard2 = ({ repo, theme }) => {
 const ProjectGrid = ({ repos, theme }) => {
   return (
     <div className="projects-grid">
-      {repos.map((repo) => (
-        <ProjectCard2 key={repo.id} repo={repo} theme={theme} />
+      {repos.map((repo, index) => (
+        <ProjectCard2
+          key={`cv-${repo.id}-${index}`}
+          repo={repo}
+          theme={theme}
+        />
       ))}
     </div>
   );

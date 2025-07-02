@@ -20,8 +20,14 @@ class HackathonProjects extends Component {
           Hackathon Projects
         </h1>
         <div className="repo-cards-div-main">
-          {ProjectsData.hackathonProjects.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
+          {ProjectsData.hackathonProjects.map((repo, index) => {
+            return (
+              <GithubRepoCard
+                key={`hackathon-${repo.id}-${index}`}
+                repo={repo}
+                theme={theme}
+              />
+            );
           })}
         </div>
       </div>

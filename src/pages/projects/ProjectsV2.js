@@ -4,7 +4,6 @@ import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
-import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import {
   greeting,
@@ -83,7 +82,6 @@ class Projects extends Component {
         />
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
       </div>
     );
   }

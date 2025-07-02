@@ -19,9 +19,9 @@ export default function SkillsAndFeatured(props) {
       </div>
       <div style={{ width: "45%", textAlign: "center" }}>
         <h1>Featured Projects</h1>
-        {ProjectsData.featuredProjects.map((repo) => {
+        {ProjectsData.featuredProjects.map((repo, index) => {
           return (
-            <div>
+            <div key={`featured-${repo.id}-${index}`}>
               <GithubRepoCard repo={repo} theme={props.theme} />
               <br></br>
             </div>
