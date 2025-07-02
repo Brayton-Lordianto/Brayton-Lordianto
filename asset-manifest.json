@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.535b13c7.css",
-    "main.js": "./static/js/main.1369f8ed.js",
+    "main.css": "./static/css/main.8fe11922.css",
+    "main.js": "./static/js/main.5c5b81d3.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/computerVisionProject1.png": "./static/media/computerVisionProject1.9d7386ef78adf911eaaa.png",
     "static/media/computerVisionProject3.gif": "./static/media/computerVisionProject3.566488d6513d093bb6a4.gif",
@@ -71,11 +71,11 @@
     "static/media/googleAssistant.svg": "./static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.535b13c7.css.map": "./static/css/main.535b13c7.css.map",
-    "main.1369f8ed.js.map": "./static/js/main.1369f8ed.js.map"
+    "main.8fe11922.css.map": "./static/css/main.8fe11922.css.map",
+    "main.5c5b81d3.js.map": "./static/js/main.5c5b81d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.535b13c7.css",
-    "static/js/main.1369f8ed.js"
+    "static/css/main.8fe11922.css",
+    "static/js/main.5c5b81d3.js"
   ]
 }
