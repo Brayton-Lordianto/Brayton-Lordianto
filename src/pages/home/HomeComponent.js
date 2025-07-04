@@ -13,6 +13,7 @@ function Home(props) {
   const homeRef = useRef();
   const educationRef = useRef();
   const projectsRef = useRef();
+  const visualComputingRef = useRef();
 
   return (
     <div className="homeDiv">
@@ -26,7 +27,11 @@ function Home(props) {
         <div style={{ margin: "200px 0 200px 0" }}></div>
         <Education theme={props.theme} reference={educationRef} />
         <div style={{ margin: "200px 0 200px 0" }}></div>
-        <Projects theme={props.theme} reference={projectsRef} />
+        <Projects
+          theme={props.theme}
+          reference={projectsRef}
+          visualComputingRef={visualComputingRef}
+        />
         <div style={{ margin: "200px 0 200px 0" }}></div>
       </section>
       {/* <MyHeader3></MyHeader3> */}
@@ -35,6 +40,7 @@ function Home(props) {
         homeRef={homeRef}
         educationRef={educationRef}
         projectsRef={projectsRef}
+        visualComputingRef={visualComputingRef}
       />
       <TopButton theme={props.theme} />
     </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./CollapsibleSection.css";
 
 const CollapsibleSection = ({
   title,
@@ -6,8 +7,21 @@ const CollapsibleSection = ({
   theme,
   defaultCollapsed = false,
   customStyles = {},
+  specialHeader = false,
+  isCollapsed: controlledIsCollapsed,
+  onToggle,
 }) => {
-  const [isCollapsed, setIsCollapsed] = useState(defaultCollapsed);
+  const [internalIsCollapsed, setInternalIsCollapsed] = useState(
+    defaultCollapsed
+  );
+
+  // Use controlled state if provided, otherwise use internal state
+  const isCollapsed =
+    controlledIsCollapsed !== undefined
+      ? controlledIsCollapsed
+      : internalIsCollapsed;
+  const handleToggle =
+    onToggle || (() => setInternalIsCollapsed(!internalIsCollapsed));
 
   // Default theme fallback
   const defaultTheme = {
@@ -30,8 +44,8 @@ const CollapsibleSection = ({
       }}
     >
       <div
-        className="category-header"
-        onClick={() => setIsCollapsed(!isCollapsed)}
+        className={`category-header ${specialHeader ? "special-header" : ""}`}
+        onClick={handleToggle}
         style={{
           cursor: "pointer",
           display: "flex",
@@ -42,18 +56,35 @@ const CollapsibleSection = ({
             ? "none"
             : `1px solid ${currentTheme.secondaryText}20`,
           transition: "all 0.3s ease",
+          position: "relative",
+          overflow: "hidden",
+          backgroundColor: specialHeader ? "#000000" : "transparent",
+          border: specialHeader ? "1px solid #03e9f4" : "none",
+          borderRadius: specialHeader ? "8px" : "0",
           ...customStyles.header,
         }}
       >
+        {specialHeader && (
+          <>
+            <span className="header-border-animation header-border-top"></span>
+            <span className="header-border-animation header-border-right"></span>
+            <span className="header-border-animation header-border-bottom"></span>
+            <span className="header-border-animation header-border-left"></span>
+          </>
+        )}
         <h1
           className="projects-heading-text"
           style={{
-            color: currentTheme.header || currentTheme.text,
+            color: specialHeader
+              ? "#03e9f4"
+              : currentTheme.header || currentTheme.text,
             margin: 0,
             fontSize: "2.5rem",
             fontWeight: "600",
             flex: 1,
             textAlign: "center",
+            zIndex: 10,
+            position: "relative",
           }}
         >
           {title}
@@ -62,9 +93,11 @@ const CollapsibleSection = ({
           style={{
             transition: "transform 0.3s ease",
             transform: isCollapsed ? "rotate(0deg)" : "rotate(180deg)",
-            color: "#868e96",
+            color: specialHeader ? "#03e9f4" : "#868e96",
             fontSize: "1.5rem",
             marginLeft: "auto",
+            zIndex: 10,
+            position: "relative",
           }}
         >
           ▼

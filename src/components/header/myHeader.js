@@ -19,6 +19,7 @@ export default function MyHeader({
   homeRef,
   educationRef,
   projectsRef,
+  visualComputingRef,
 }) {
   const link = "home";
   function handleScroll(reference) {
@@ -93,6 +94,40 @@ export default function MyHeader({
                 }}
               >
                 Projects
+              </span>
+            </li>
+            <li>
+              <span
+                className="visual-computing-nav"
+                style={{
+                  color: "#03e9f4",
+                  cursor: "pointer",
+                  textDecoration: "none",
+                  display: "block",
+                  padding: "15px 25px",
+                  borderRadius: "8px",
+                  transition: "all 0.3s ease",
+                  position: "relative",
+                  overflow: "hidden",
+                  background: "#000000",
+                }}
+                onClick={() => {
+                  if (visualComputingRef) {
+                    handleScroll(visualComputingRef);
+                    // Trigger auto-uncollapse after scrolling
+                    setTimeout(() => {
+                      if (window.visualComputingUncollapse) {
+                        window.visualComputingUncollapse();
+                      }
+                    }, 500);
+                  }
+                }}
+              >
+                <span className="nav-border-animation nav-border-top"></span>
+                <span className="nav-border-animation nav-border-right"></span>
+                <span className="nav-border-animation nav-border-bottom"></span>
+                <span className="nav-border-animation nav-border-left"></span>
+                Visual Computing
               </span>
             </li>
           </ul>

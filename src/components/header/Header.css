@@ -181,3 +181,138 @@
     font-size: 12px;
   }
 }
+
+/* Visual Computing Navigation Animations */
+.visual-computing-nav {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-border-animation {
+  position: absolute;
+  display: block;
+}
+
+.nav-border-top {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+}
+
+.nav-border-right {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+}
+
+.nav-border-bottom {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+}
+
+.nav-border-left {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+}
+
+.visual-computing-nav:hover .nav-border-top {
+  animation: nav-anim1 1s linear 1;
+}
+
+.visual-computing-nav:hover .nav-border-right {
+  animation: nav-anim2 1s linear 1;
+  animation-delay: 0.25s;
+}
+
+.visual-computing-nav:hover .nav-border-bottom {
+  animation: nav-anim3 1s linear 1;
+  animation-delay: 0.5s;
+}
+
+.visual-computing-nav:hover .nav-border-left {
+  animation: nav-anim4 1s linear 1;
+  animation-delay: 0.75s;
+}
+
+@keyframes nav-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes nav-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes nav-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes nav-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.visual-computing-nav:hover {
+  background: #56018d !important;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+  /* background: linear-gradient(360deg, #03e9f4, #03e9f4) !important; */
+  /* box-shadow: 0 0 10px rgba(7, 190, 184, 0.6),
+              0 0 20px rgba(7, 190, 184, 0.4),
+              0 0 40px rgba(7, 190, 184, 0.2); */
+  color: #fff !important;
+}
+
+/* Whatever contains .visual-computing-nav */
+.parent-container {
+  padding: 20px 0; /* Give vertical space for glow */
+}
+
+/* Give the li element breathing room */
+/* .header .menu li {
+  padding: 20px 0 !important;
+  overflow: visible !important;
+} */
+
+/* Ensure the menu container doesn't clip */
+.header .menu {
+  overflow: visible !important;
+}
+
+/* Make sure header doesn't clip the glow */
+/* .header {
+  overflow: visible !important;
+  padding: 25px 0 !important; /* Increase from current 20px 
+} */

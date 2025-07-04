@@ -18,7 +18,7 @@ import ProjectsImg from "./ProjectsImg";
 // different sections of projects
 import AdditionalProjects from "./projectSections/additionalProjects";
 import HackathonProjects from "./projectSections/hackathonProjects.js";
-import ComputerVisionProjects from "./projectSections/computerVisionProjects.js";
+import VisualComputingProjects from "./projectSections/computerVisionProjects.js";
 import CollapsibleSection from "../../components/collapsibleSection/CollapsibleSection";
 
 class Projects extends Component {
@@ -62,7 +62,10 @@ class Projects extends Component {
           <AdditionalProjects theme={theme} />
           <HackathonProjects theme={theme} />
         </CollapsibleSection>
-        <ComputerVisionProjects theme={theme} />
+        <VisualComputingProjects
+          theme={theme}
+          reference={this.props.visualComputingRef}
+        />
 
         <Button
           text={"View All Repositories on Github"}
