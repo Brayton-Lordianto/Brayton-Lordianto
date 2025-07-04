@@ -1,6 +1,7 @@
 .skills-main-div {
   display: flex;
   overflow: hidden;
+  overflow: visible !important;
 }
 
 .skills-header {
@@ -9,6 +10,12 @@
   font-family: "Google Sans Regular";
   text-align: center;
 }
+
+/*
+.header .menu {
+  overflow: visible !important;
+}
+*/
 
 .skills-text {
   font-size: 20px;

@@ -26,6 +26,12 @@
   animation: 1s boom infinite;
 }
 
+/* Override disableFilter on hover to ensure glow works on custom images */
+.disableFilter.hover-glow:hover {
+  filter: drop-shadow(-4px 0px 5px red) drop-shadow(4px 0 5px white) !important;
+  animation: 1s boom infinite;
+}
+
 .software-skill-inline > i:hover {
   color: #645beb;
 }
