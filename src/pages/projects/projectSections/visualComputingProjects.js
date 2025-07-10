@@ -43,9 +43,10 @@ class VisualComputingProjects extends Component {
             this.setState({ isCollapsed: !this.state.isCollapsed })
           }
         >
-          <div
-            style={{ display: "flex", flexDirection: "column", gap: "3rem" }}
-          >
+          <div className="projects-main">
+            <div
+              style={{ display: "flex", flexDirection: "column", gap: "3rem" }}
+            >
             {/* Rendering & Real-time Graphics Subsection */}
             <div>
               <h2
@@ -108,6 +109,7 @@ class VisualComputingProjects extends Component {
                 theme={theme}
               />
             </div>
+          </div>
           </div>
         </CollapsibleSection>
       </div>
