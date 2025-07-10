@@ -18,7 +18,7 @@ import ProjectsImg from "./ProjectsImg";
 // different sections of projects
 import AdditionalProjects from "./projectSections/additionalProjects";
 import HackathonProjects from "./projectSections/hackathonProjects.js";
-import VisualComputingProjects from "./projectSections/computerVisionProjects.js";
+import VisualComputingProjects from "./projectSections/visualComputingProjects.js";
 import CollapsibleSection from "../../components/collapsibleSection/CollapsibleSection";
 
 class Projects extends Component {
