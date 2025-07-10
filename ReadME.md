@@ -3,7 +3,8 @@
 `npm run deploy`
 
 brayton.website -> in Domain.com with NYU email.
-If there are issues like it isn't showing up, either the domain may have expired (Jan 2026) or you need to add it to the `Custom Domain` section in GitHub Pages of the repository.
+
+If there are issues like it isn't showing up, either the domain may have expired (Jan 2026) or you need to add it to the `Custom Domain` section in GitHub Pages of the repository. Add `brayton.website`. 
 
 # Previous Issues
 
