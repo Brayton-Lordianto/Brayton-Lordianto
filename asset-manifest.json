@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "./static/css/main.8fe11922.css",
-    "main.js": "./static/js/main.5c5b81d3.js",
+    "main.css": "./static/css/main.36c67e8b.css",
+    "main.js": "./static/js/main.cafb3440.js",
+    "static/media/clothSim.gif": "./static/media/clothSim.bd52735c63983b88db51.gif",
+    "static/media/metalPathTracer.gif": "./static/media/metalPathTracer.2c506d6b981d319e2df9.gif",
+    "static/media/webglRayMarchingSpheres.gif": "./static/media/webglRayMarchingSpheres.c2885823d05e9526df40.gif",
+    "static/media/loopSubdivision.gif": "./static/media/loopSubdivision.af0b5866bb9be59c5741.gif",
+    "static/media/3dMeshEnergyBasedDeformation.gif": "./static/media/3dMeshEnergyBasedDeformation.5033dada8d0a2c9f79b0.gif",
+    "static/media/globalIllumination.gif": "./static/media/globalIllumination.a06e441de46ff6bd7d20.gif",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
-    "static/media/computerVisionProject1.png": "./static/media/computerVisionProject1.9d7386ef78adf911eaaa.png",
-    "static/media/computerVisionProject3.gif": "./static/media/computerVisionProject3.566488d6513d093bb6a4.gif",
-    "static/media/computerVisionProject4.png": "./static/media/computerVisionProject4.7ca5066c73921b18b210.png",
+    "static/media/MLS_PointsToMesh.gif": "./static/media/MLS_PointsToMesh.4a3e03a412c23a8809ba.gif",
+    "static/media/train.png": "./static/media/train.9d7386ef78adf911eaaa.png",
+    "static/media/morphFaceGif.gif": "./static/media/morphFaceGif.566488d6513d093bb6a4.gif",
+    "static/media/vectorFieldReconstruction.gif": "./static/media/vectorFieldReconstruction.906e50bb081e460aae05.gif",
+    "static/media/featureMatchingPanoramas.png": "./static/media/featureMatchingPanoramas.7ca5066c73921b18b210.png",
+    "static/media/bezierForFonts.gif": "./static/media/bezierForFonts.5a73c675bf9249f40c09.gif",
+    "static/media/3dOpticalBenchSim.gif": "./static/media/3dOpticalBenchSim.6756a1ff81eca015405b.gif",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
-    "static/media/computerVisionProject2.png": "./static/media/computerVisionProject2.0254130ae60742fcb431.png",
+    "static/media/cageBasedDeformation.gif": "./static/media/cageBasedDeformation.69db2ffbaa7a38573940.gif",
+    "static/media/multiresolutionBlending.png": "./static/media/multiresolutionBlending.0254130ae60742fcb431.png",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
+    "static/media/diffusionAnagrams.png": "./static/media/diffusionAnagrams.299dd48e160ec92dd416.png",
+    "static/media/rasterization.png": "./static/media/rasterization.ab51808a19e05fc5f934.png",
+    "static/media/facialKeypoints.png": "./static/media/facialKeypoints.27c7933b6a9febf8c288.png",
     "static/media/berkeley_logo_golden_dark.png": "./static/media/berkeley_logo_golden_dark.cbb508b0f03e97533b91.png",
-    "static/media/computerVisionProject5.png": "./static/media/computerVisionProject5.5e7834936b4c67fccd8b.png",
+    "static/media/computerVisionProject5_Old.png": "./static/media/computerVisionProject5_Old.5e7834936b4c67fccd8b.png",
     "static/media/Montserrat-Regular.ttf": "./static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/dsc_logo.png": "./static/media/dsc_logo.fdf993910e3f48d0cf30.png",
     "static/media/fa-solid-900.eot": "./static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
@@ -71,11 +85,11 @@
     "static/media/googleAssistant.svg": "./static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.8fe11922.css.map": "./static/css/main.8fe11922.css.map",
-    "main.5c5b81d3.js.map": "./static/js/main.5c5b81d3.js.map"
+    "main.36c67e8b.css.map": "./static/css/main.36c67e8b.css.map",
+    "main.cafb3440.js.map": "./static/js/main.cafb3440.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fe11922.css",
-    "static/js/main.5c5b81d3.js"
+    "static/css/main.36c67e8b.css",
+    "static/js/main.cafb3440.js"
   ]
 }
