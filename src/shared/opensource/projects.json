@@ -85,80 +85,6 @@
     }
   ],
   "computerGraphicsProjects": [],
-  "renderingRealTimeProjects": [
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "CPU Triangle Rasterizer",
-      "createdAt": "2023-09-01",
-      "url": "#",
-      "description": "Full rasterization pipeline implementation with triangle rendering, supersampling anti-aliasing, barycentric coordinate interpolation, and texture mapping. Features bilinear interpolation, mipmapping, and level sampling for optimized texture filtering with minimal computational overhead.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/graphics/rasterization.png"
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Bezier Curves & Loop Subdivision",
-      "createdAt": "2023-09-02",
-      "url": "#",
-      "description": "Mathematical foundations of Bezier curves and surfaces using De Casteljau's algorithm. Triangle mesh manipulation with half-edge data structure, implementing edge flips, splits, and Loop Subdivision for smooth mesh upsampling and refinement.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/graphics/loopSubdivision.gif"
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "OpenGL Path Tracer with BVH",
-      "createdAt": "2023-09-03",
-      "url": "#",
-      "description": "Monte Carlo path tracer with realistic lighting simulation. Features ray generation, intersection testing, bounding volume hierarchies (BVH), direct/global illumination, and adaptive sampling for complex scene rendering with physically accurate lighting.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/graphics/globalIllumination.gif"
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Cloth Simulation & GLSL Shaders",
-      "createdAt": "2023-09-04",
-      "url": "#",
-      "description": "Physically-based cloth simulation using mass-spring systems with numerical integration. Implements collision detection, spatial hashing, and advanced GLSL shaders including Blinn-Phong, texture mapping, bump/displacement mapping, and environment mapping.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/graphics/clothSim.gif"
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Vision Pro MSL Aberration Simulator",
-      "createdAt": "2023-12-01",
-      "url": "#",
-      "description": "GPU-based path tracing on Apple Vision Pro using Metal Shading Language. Simulates vision aberrations with thin-lens ray generation, per-ray dioptric variation from clinical eye parameters (SPH, CYL, AXIS), and realistic defocus pattern modeling.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/graphics/metalPathTracer.gif"
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "WebGL GPU Ray Tracer",
-      "createdAt": "2023-10-01",
-      "url": "#",
-      "description": "Real-time ray tracing and ray marching implementation in WebGL with GPU acceleration. Features Phong shading model, real-time lighting calculations, and interactive 3D scene rendering directly in the browser.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/graphics/webglRayMarchingSpheres.gif"
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "3D Optical Bench Simulation",
-      "createdAt": "2023-10-02",
-      "url": "#",
-      "description": "Interactive 3D optical bench system using WebGL ray marching. Features dynamic lens manipulation, convex/concave transformations, signed distance function blending, real-time ray visualization, and procedurally generated lens environments with full 3D camera controls.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/graphics/3dOpticalBenchSim.gif"
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Interactive Bezier Curve Tutorial",
-      "createdAt": "2023-10-03",
-      "url": "#",
-      "description": "Educational simulation for Bezier curve mathematics with interactive point manipulation, font rendering integration, and real-time curve visualization. Demonstrates De Casteljau's algorithm through hands-on learning with draggable control points.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/graphics/bezierForFonts.gif"
-    }
-  ],
   "computerVisionProjects": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
@@ -167,7 +93,7 @@
       "url": "https://brayton-lordianto.github.io/Computer-Vision-Sites/project1/web.html",
       "description": "This project involves aligning separate RGB channels of an image to create a cohesive RGB image. Techniques used include Normalized Cross Correlation and Gaussian Pyramid.",
       "isFork": false,
-      "imagePath": "visualComputingProjects_images/computerVision/computerVisionProject5_Old.png"
+      "imagePath": "visualComputingProjects_images/computerVision/train.png"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
@@ -213,44 +139,6 @@
       "description": "Facial landmark detection using multiple deep learning approaches in PyTorch. Implemented custom CNN architecture, transfer learning with pretrained ResNet (MSE 2.9), DINO feature extraction, and UNet heatmap detector achieving best performance (MSE 2.3). Evaluated coordinate regression vs. heatmap-based methods for 68-point facial keypoint localization.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/computerVision/facialKeypoints.png"
-    }
-  ],
-  "meshGeometricProcessingProjects": [
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Mesh Implicit Reconstruction",
-      "createdAt": "2023-11-01",
-      "url": "#",
-      "description": "Point cloud to surface reconstruction using Moving Least Squares (MLS) interpolation. Implements constraint-based surface reconstruction, implicit function approximation, and marching tetrahedra for mesh extraction from zero level sets.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/geometricProcessing/MLS_PointsToMesh.gif"
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Laplacian Surface Editing",
-      "createdAt": "2023-11-02",
-      "url": "#",
-      "description": "Interactive 3D mesh deformation using multi-resolution surface representation. Implements bi-Laplacian smoothing, handle-based transformations, and detail transfer using cotangent Laplacian operators and thin-plate energy minimization.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/geometricProcessing/3dMeshEnergyBasedDeformation.gif"
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Cage-Based Mesh Deformation",
-      "createdAt": "2023-11-03",
-      "url": "#",
-      "description": "Harmonic coordinates for character articulation using space-based deformation. Implements cage triangulation, harmonic weight computation, barycentric interpolation, and interactive mesh deformation through cage manipulation.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/geometricProcessing/cageBasedDeformation.gif"
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Vector Field Poisson Reconstruction",
-      "createdAt": "2023-11-04",
-      "url": "#",
-      "description": "Mesh parameterization through vector field design and scalar field reconstruction. Implements smooth tangent vector field interpolation, least-squares gradient fitting, and harmonic/LSCM parameterization for 3D-to-2D mesh flattening.",
-      "isFork": false,
-      "imagePath": "visualComputingProjects_images/geometricProcessing/vectorFieldReconstruction.gif"
     }
   ],
   "data": [
@@ -513,154 +401,116 @@
     }
   ],
   "icons": "https://icon-sets.iconify.design/?query=swift",
-  "data": [
+  "meshGeometricProcessingProjects": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNjkwNzUwMjM=",
-      "name": "StudyBud",
-      "createdAt": "Sep 2022 (team of 4)",
-      "url": "https://devpost.com/software/studybot-bh3o71",
-      "description": "Submitted to Hack to School (Best Use of Google Cloud [GC] prize). A Discord bot that uses GC to store documents/assignments and GC Vision to scan pdfs and images.",
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Mesh Implicit Reconstruction",
+      "createdAt": "2023-11-01",
+      "url": "#",
+      "description": "Point cloud to surface reconstruction using Moving Least Squares (MLS) interpolation. Implements constraint-based surface reconstruction, implicit function approximation, and marching tetrahedra for mesh extraction from zero level sets.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "TypeScript",
-          "iconifyClass": "cib:typescript"
-        },
-        {
-          "name": "Google Cloud",
-          "iconifyClass": "logos:google-cloud"
-        },
-        {
-          "name": "Firebase",
-          "iconifyClass": "logos:firebase"
-        }
-      ]
+      "imagePath": "visualComputingProjects_images/geometricProcessing/MLS_PointsToMesh.gif"
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Youtube-Sumarizr",
-      "createdAt": "Aug 2022 (team of 4)",
-      "url": "https://devpost.com/software/summarizr-hczls7",
-      "description": "Submitted to PeddieHacks 2022 ($1000-cash Passion Prize and Best Education Track). This project allows users (intended to be students or teachers) to get auto-chapters or summaries of any youtube video. They can then choose to ask a ML bot questions about these chapters and get answers. This allows students to absorb content fast and easily.",
+      "name": "Laplacian Surface Editing",
+      "createdAt": "2023-11-02",
+      "url": "#",
+      "description": "Interactive 3D mesh deformation using multi-resolution surface representation. Implements bi-Laplacian smoothing, handle-based transformations, and detail transfer using cotangent Laplacian operators and thin-plate energy minimization.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "React",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Flask",
-          "iconifyClass": "logos-flask"
-        },
-        {
-          "name": "Tailwind CSS",
-          "iconifyClass": "logos-tailwindcss-icon"
-        },
-        {
-          "name": "Tensorflow (BERT)",
-          "iconifyClass": "logos-tensorflow"
-        }
-      ]
+      "imagePath": "visualComputingProjects_images/geometricProcessing/3dMeshEnergyBasedDeformation.gif"
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
-      "name": "Village Volunteer",
-      "createdAt": "Aug 2022 (team of 4)",
-      "url": "https://devpost.com/software/village-volunteer",
-      "description": "A mobile app and a Figma-extended prototype that helps the elderly to connect with young people that want to do daily chores for free or a cheap tip fee.",
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Cage-Based Mesh Deformation",
+      "createdAt": "2023-11-03",
+      "url": "#",
+      "description": "Harmonic coordinates for character articulation using space-based deformation. Implements cage triangulation, harmonic weight computation, barycentric interpolation, and interactive mesh deformation through cage manipulation.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "Swift",
-          "iconifyClass": "logos-swift"
-        },
-        {
-          "name": "Figma",
-          "iconifyClass": "logos-figma"
-        }
-      ]
+      "imagePath": "visualComputingProjects_images/geometricProcessing/cageBasedDeformation.gif"
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkxNTU5NTE3NTk=",
-      "name": "PetMe: Augmented Reality App",
-      "createdAt": "Aug 2022 (team of 4)",
-      "url": "https://devpost.com/software/petme-xg07r8",
-      "description": "An app that allows pet lovers to adopt injured/unwanted animals from vendors. They can view the animal in 3D to choose the animal they want. Won Best use of SQL in a hackathon. ",
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Vector Field Poisson Reconstruction",
+      "createdAt": "2023-11-04",
+      "url": "#",
+      "description": "Mesh parameterization through vector field design and scalar field reconstruction. Implements smooth tangent vector field interpolation, least-squares gradient fitting, and harmonic/LSCM parameterization for 3D-to-2D mesh flattening.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "Twilio",
-          "iconifyClass": "logos-twilio-icon"
-        },
-        {
-          "name": "Python and Flask",
-          "iconifyClass": "logos-flask"
-        },
-        {
-          "name": "React",
-          "iconifyClass": "logos-react"
-        },
-        {
-          "name": "ARKit and RealityKit on Mobile with Swift",
-          "iconifyClass": "tabler:augmented-reality"
-        }
-      ]
+      "imagePath": "visualComputingProjects_images/geometricProcessing/vectorFieldReconstruction.gif"
+    }
+  ],
+  "renderingRealTimeProjects": [
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "CPU Triangle Rasterizer",
+      "createdAt": "2023-09-01",
+      "url": "#",
+      "description": "Full rasterization pipeline implementation with triangle rendering, supersampling anti-aliasing, barycentric coordinate interpolation, and texture mapping. Features bilinear interpolation, mipmapping, and level sampling for optimized texture filtering with minimal computational overhead.",
+      "isFork": false,
+      "imagePath": "visualComputingProjects_images/graphics/rasterization.png"
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=",
-      "name": "Hackathon-er's Hall of Fame",
-      "createdAt": "July 2022 (Solo)",
-      "url": "https://devpost.com/software/hacker-s-hall-of-fame",
-      "description": "A Web3 mobile app using a flask server. Hackathon organizers can interact with a WhatsApp bot that creates an NFT of badges on the DeSo blockchain and distributes it to hackathon participants who earned it!",
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Bezier Curves & Loop Subdivision",
+      "createdAt": "2023-09-02",
+      "url": "#",
+      "description": "Mathematical foundations of Bezier curves and surfaces using De Casteljau's algorithm. Triangle mesh manipulation with half-edge data structure, implementing edge flips, splits, and Loop Subdivision for smooth mesh upsampling and refinement.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "Flask",
-          "iconifyClass": "logos-flask"
-        },
-        {
-          "name": "DeSo decentralized blockchain",
-          "iconifyClass": "icon-park:blockchain"
-        },
-        {
-          "name": "Swift",
-          "iconifyClass": "logos-swift"
-        },
-        {
-          "name": "Twilio",
-          "iconifyClass": "logos-twilio-icon"
-        }
-      ]
+      "imagePath": "visualComputingProjects_images/graphics/loopSubdivision.gif"
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkxODIxMjk3NTQ=",
-      "name": "Trash-ure Map",
-      "createdAt": "2019-04-18T17:25:51Z",
-      "url": "https://devpost.com/software/healthmedia",
-      "description": "Won First Place in FiveHacks, Second Place in MergeHacks and Data Grind Hacks. A social media app for litter. Users post litter they've found online. Google Cloud Vision identifies the product (such as a Coca-cola can) and stores it in the database along with the location it is found. A crowdmap of the found data in respective regions is publicly provided, with the intention of being proof of litter and to hold companies like Coca-cola accountable for their litter.",
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "OpenGL Path Tracer with BVH",
+      "createdAt": "2023-09-03",
+      "url": "#",
+      "description": "Monte Carlo path tracer with realistic lighting simulation. Features ray generation, intersection testing, bounding volume hierarchies (BVH), direct/global illumination, and adaptive sampling for complex scene rendering with physically accurate lighting.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "Leaflet/Folium UI",
-          "iconifyClass": "logos-leaflet"
-        },
-        {
-          "name": "Python and Flask",
-          "iconifyClass": "logos-flask"
-        },
-        {
-          "name": "Google Cloud",
-          "iconifyClass": "logos:google-cloud"
-        },
-        {
-          "name": "SQL",
-          "iconifyClass": "vscode-icons:file-type-plsql"
-        }
-      ]
+      "imagePath": "visualComputingProjects_images/graphics/globalIllumination.gif"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Cloth Simulation & GLSL Shaders",
+      "createdAt": "2023-09-04",
+      "url": "#",
+      "description": "Physically-based cloth simulation using mass-spring systems with numerical integration. Implements collision detection, spatial hashing, and advanced GLSL shaders including Blinn-Phong, texture mapping, bump/displacement mapping, and environment mapping.",
+      "isFork": false,
+      "imagePath": "visualComputingProjects_images/graphics/clothSim.gif"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Vision Pro MSL Aberration Simulator",
+      "createdAt": "2023-12-01",
+      "url": "#",
+      "description": "GPU-based path tracing on Apple Vision Pro using Metal Shading Language. Simulates vision aberrations with thin-lens ray generation, per-ray dioptric variation from clinical eye parameters (SPH, CYL, AXIS), and realistic defocus pattern modeling.",
+      "isFork": false,
+      "imagePath": "visualComputingProjects_images/graphics/metalPathTracer.gif"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "WebGL GPU Ray Tracer",
+      "createdAt": "2023-10-01",
+      "url": "#",
+      "description": "Real-time ray tracing and ray marching implementation in WebGL with GPU acceleration. Features Phong shading model, real-time lighting calculations, and interactive 3D scene rendering directly in the browser.",
+      "isFork": false,
+      "imagePath": "visualComputingProjects_images/graphics/webglRayMarchingSpheres.gif"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "3D Optical Bench Simulation",
+      "createdAt": "2023-10-02",
+      "url": "#",
+      "description": "Interactive 3D optical bench system using WebGL ray marching. Features dynamic lens manipulation, convex/concave transformations, signed distance function blending, real-time ray visualization, and procedurally generated lens environments with full 3D camera controls.",
+      "isFork": false,
+      "imagePath": "visualComputingProjects_images/graphics/3dOpticalBenchSim.gif"
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "name": "Interactive Bezier Curve Tutorial",
+      "createdAt": "2023-10-03",
+      "url": "#",
+      "description": "Educational simulation for Bezier curve mathematics with interactive point manipulation, font rendering integration, and real-time curve visualization. Demonstrates De Casteljau's algorithm through hands-on learning with draggable control points.",
+      "isFork": false,
+      "imagePath": "visualComputingProjects_images/graphics/bezierForFonts.gif"
     }
   ],
   "unflexed-data": [
@@ -678,6 +528,5 @@
         }
       ]
     }
-  ],
-  "icons": "https://icon-sets.iconify.design/?query=swift"
+  ]
 }
