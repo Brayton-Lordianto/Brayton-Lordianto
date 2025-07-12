@@ -15,10 +15,6 @@ export default function Footer(props) {
             "https://api.counterapi.dev/v1/brayton-portfolio/visits-brayton-portfolio2/up",
             {
               method: "GET",
-              mode: "cors",
-              headers: {
-                Authorization: `Bearer ut_ceisioFJcxVfhqHl6TAXOthxLGRhcTZXNzCc3nZf`,
-              },
             }
           );
 
