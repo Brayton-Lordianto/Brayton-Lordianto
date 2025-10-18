@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.36c67e8b.css",
-    "main.js": "./static/js/main.36988453.js",
+    "main.js": "./static/js/main.91e05ca5.js",
     "static/media/clothSim.gif": "./static/media/clothSim.bd52735c63983b88db51.gif",
     "static/media/metalPathTracer.gif": "./static/media/metalPathTracer.2c506d6b981d319e2df9.gif",
     "static/media/webglRayMarchingSpheres.gif": "./static/media/webglRayMarchingSpheres.c2885823d05e9526df40.gif",
@@ -87,10 +87,10 @@
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.36c67e8b.css.map": "./static/css/main.36c67e8b.css.map",
-    "main.36988453.js.map": "./static/js/main.36988453.js.map"
+    "main.91e05ca5.js.map": "./static/js/main.91e05ca5.js.map"
   },
   "entrypoints": [
     "static/css/main.36c67e8b.css",
-    "static/js/main.36988453.js"
+    "static/js/main.91e05ca5.js"
   ]
 }
