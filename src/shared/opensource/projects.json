@@ -135,7 +135,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Facial Keypoint Detection with Deep Learning",
       "createdAt": "2023-10-06",
-      "url": "#",
+      "url": "https://brayton-lordianto.github.io/Computer-Vision-Sites/training_resnets_unet_cnn_facial_keypoints_detection/",
       "description": "Facial landmark detection using multiple deep learning approaches in PyTorch. Implemented custom CNN architecture, transfer learning with pretrained ResNet (MSE 2.9), DINO feature extraction, and UNet heatmap detector achieving best performance (MSE 2.3). Evaluated coordinate regression vs. heatmap-based methods for 68-point facial keypoint localization.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/computerVision/facialKeypoints.png"
@@ -406,7 +406,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Mesh Implicit Reconstruction",
       "createdAt": "2023-11-01",
-      "url": "#",
+      "url": "https://github.com/Brayton-Lordianto/geometric-processing-nyu",
       "description": "Point cloud to surface reconstruction using Moving Least Squares (MLS) interpolation. Implements constraint-based surface reconstruction, implicit function approximation, and marching tetrahedra for mesh extraction from zero level sets.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/geometricProcessing/MLS_PointsToMesh.gif"
@@ -415,7 +415,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Laplacian Surface Editing",
       "createdAt": "2023-11-02",
-      "url": "#",
+      "url": "https://github.com/Brayton-Lordianto/geometric-processing-nyu",
       "description": "Interactive 3D mesh deformation using multi-resolution surface representation. Implements bi-Laplacian smoothing, handle-based transformations, and detail transfer using cotangent Laplacian operators and thin-plate energy minimization.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/geometricProcessing/3dMeshEnergyBasedDeformation.gif"
@@ -424,7 +424,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Cage-Based Mesh Deformation",
       "createdAt": "2023-11-03",
-      "url": "#",
+      "url": "https://github.com/Brayton-Lordianto/geometric-processing-nyu",
       "description": "Harmonic coordinates for character articulation using space-based deformation. Implements cage triangulation, harmonic weight computation, barycentric interpolation, and interactive mesh deformation through cage manipulation.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/geometricProcessing/cageBasedDeformation.gif"
@@ -433,7 +433,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Vector Field Poisson Reconstruction",
       "createdAt": "2023-11-04",
-      "url": "#",
+      "url": "https://github.com/Brayton-Lordianto/geometric-processing-nyu",
       "description": "Mesh parameterization through vector field design and scalar field reconstruction. Implements smooth tangent vector field interpolation, least-squares gradient fitting, and harmonic/LSCM parameterization for 3D-to-2D mesh flattening.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/geometricProcessing/vectorFieldReconstruction.gif"
@@ -444,7 +444,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "CPU Triangle Rasterizer",
       "createdAt": "2023-09-01",
-      "url": "#",
+      "url": "https://brayton-lordianto.github.io/Computer-Graphics-Sites/rasterization",
       "description": "Full rasterization pipeline implementation with triangle rendering, supersampling anti-aliasing, barycentric coordinate interpolation, and texture mapping. Features bilinear interpolation, mipmapping, and level sampling for optimized texture filtering with minimal computational overhead.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/graphics/rasterization.png"
@@ -453,7 +453,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Bezier Curves & Loop Subdivision",
       "createdAt": "2023-09-02",
-      "url": "#",
+      "url": "https://brayton-lordianto.github.io/Computer-Graphics-Sites/geometry",
       "description": "Mathematical foundations of Bezier curves and surfaces using De Casteljau's algorithm. Triangle mesh manipulation with half-edge data structure, implementing edge flips, splits, and Loop Subdivision for smooth mesh upsampling and refinement.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/graphics/loopSubdivision.gif"
@@ -462,7 +462,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "OpenGL Path Tracer with BVH",
       "createdAt": "2023-09-03",
-      "url": "#",
+      "url": "https://brayton-lordianto.github.io/Computer-Graphics-Sites/pathtracing",
       "description": "Monte Carlo path tracer with realistic lighting simulation. Features ray generation, intersection testing, bounding volume hierarchies (BVH), direct/global illumination, and adaptive sampling for complex scene rendering with physically accurate lighting.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/graphics/globalIllumination.gif"
@@ -471,7 +471,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Cloth Simulation & GLSL Shaders",
       "createdAt": "2023-09-04",
-      "url": "#",
+      "url": "https://brayton-lordianto.github.io/Computer-Graphics-Sites/cloth-simulation-and-shaders",
       "description": "Physically-based cloth simulation using mass-spring systems with numerical integration. Implements collision detection, spatial hashing, and advanced GLSL shaders including Blinn-Phong, texture mapping, bump/displacement mapping, and environment mapping.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/graphics/clothSim.gif"
@@ -480,7 +480,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Vision Pro MSL Aberration Simulator",
       "createdAt": "2023-12-01",
-      "url": "#",
+      "url": "https://brayton-lordianto.github.io/Computer-Graphics-Sites/gpu-path-tracing",
       "description": "GPU-based path tracing on Apple Vision Pro using Metal Shading Language. Simulates vision aberrations with thin-lens ray generation, per-ray dioptric variation from clinical eye parameters (SPH, CYL, AXIS), and realistic defocus pattern modeling.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/graphics/metalPathTracer.gif"
@@ -489,7 +489,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "WebGL GPU Ray Tracer",
       "createdAt": "2023-10-01",
-      "url": "#",
+      "url": "https://brayton-lordianto.github.io/Computer-Graphics-Sites/ray-tracing-in-gpu-with-phong-shading",
       "description": "Real-time ray tracing and ray marching implementation in WebGL with GPU acceleration. Features Phong shading model, real-time lighting calculations, and interactive 3D scene rendering directly in the browser.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/graphics/webglRayMarchingSpheres.gif"
@@ -498,7 +498,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "3D Optical Bench Simulation",
       "createdAt": "2023-10-02",
-      "url": "#",
+      "url": "https://brayton-lordianto.github.io/Computer-Graphics-Sites/3d-optical-bench",
       "description": "Interactive 3D optical bench system using WebGL ray marching. Features dynamic lens manipulation, convex/concave transformations, signed distance function blending, real-time ray visualization, and procedurally generated lens environments with full 3D camera controls.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/graphics/3dOpticalBenchSim.gif"
@@ -507,7 +507,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Interactive Bezier Curve Tutorial",
       "createdAt": "2023-10-03",
-      "url": "#",
+      "url": "https://brayton-lordianto.github.io/Computer-Graphics-Sites/BezierCurveFun",
       "description": "Educational simulation for Bezier curve mathematics with interactive point manipulation, font rendering integration, and real-time curve visualization. Demonstrates De Casteljau's algorithm through hands-on learning with draggable control points.",
       "isFork": false,
       "imagePath": "visualComputingProjects_images/graphics/bezierForFonts.gif"
