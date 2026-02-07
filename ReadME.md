@@ -7,6 +7,7 @@ Technical Portfolio:
 
 Industry Experience? ✅
 I worked at Apple‘s Vision Products Group as a software engineer intern doing work on the Apple Vision Pro device. I gained significant experience working with classified and bleeding edge technologies, and in working on products and high quality software and hardware that reaches a wide audience of customers.
+I'm now working full time at Apple building the software architecture for new upcoming AirPods and future hardware accessories!
 
 Strong Software Fundamentals and Skills?  ✅
 I started getting into computer science in my 9th year, and I never stopped learning. Code logic comes naturally to me, and I aced all my computer science courses thus far.
@@ -17,7 +18,7 @@ Passion for Programming, Teamwork, and Innovation? ✅
 I create something new almost every single weekend at a hackathon (or code festival), ranging from a social media web app that tracks litter to an Augmented Reality mobile app that facilitates better pet adoption.
 I do it because I love building solutions to problems that we shouldn’t be having.
 I learn something new every week from the technologies I use and the awesome programmers I get to work with.
-I also win lots of cool prizes! I’ve participated in more than 10 hackathons in the last 2/3 months and have won more than 10 hackathon prizes, including prizes like $1000 in cash, Google Cloud swag, and SoundCore earbuds.
+I also win lots of cool prizes! I’ve participated in more than 10 hackathons and have won more than 10 hackathon prizes, including prizes like $1000 in cash, an Apple Watch, Google Cloud swag, and SoundCore earbuds. And also Apple's Swift Student Challenge where I've won AirPods and Apple swag!
 
 Understand and Value Community, Inclusion, and Diversity? ✅
 I invest some time as part of NYU’s East Asian Studies department to work with diverse managers and professors to plan school-wide events for East Asian NYU students.
@@ -28,11 +29,13 @@ I have spent the last 4 years creating an inclusive community for Indonesian stu
 
 Welcome to my portfolio website! I worked on this since my Sophomore year in college and have been updating it since. This repository was meant to be private, but I lost my Github Pro Student plan.
 
+Below are notes to self: 
+
 ## Build to Production
 
 `npm run deploy`
 
-brayton.website -> in Domain.com with NYU email.
+braytonportfolio.website -> in Domain.com with NYU email.
 
 If there are issues like it isn't showing up, either the domain may have expired (Jan 2026) or you need to add it to the `Custom Domain` section in GitHub Pages of the repository. Add `brayton.website`. 
 
