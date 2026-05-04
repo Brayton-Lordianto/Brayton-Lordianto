@@ -14,6 +14,7 @@ function Home(props) {
   const educationRef = useRef();
   const projectsRef = useRef();
   const visualComputingRef = useRef();
+  const researchRef = useRef();
 
   return (
     <div className="homeDiv">
@@ -31,6 +32,7 @@ function Home(props) {
           theme={props.theme}
           reference={projectsRef}
           visualComputingRef={visualComputingRef}
+          researchRef={researchRef}
         />
         <div style={{ margin: "200px 0 200px 0" }}></div>
       </section>
@@ -41,6 +43,7 @@ function Home(props) {
         educationRef={educationRef}
         projectsRef={projectsRef}
         visualComputingRef={visualComputingRef}
+        researchRef={researchRef}
       />
       <TopButton theme={props.theme} />
     </div>

@@ -106,7 +106,7 @@ const CollapsibleSection = ({
 
       <div
         style={{
-          maxHeight: isCollapsed ? "0" : "5000px",
+          maxHeight: isCollapsed ? "0" : "20000px",
           overflow: "hidden",
           transition: "all 0.3s ease-out",
           opacity: isCollapsed ? 0 : 1,

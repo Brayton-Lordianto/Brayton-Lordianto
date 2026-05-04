@@ -19,6 +19,7 @@ import ProjectsImg from "./ProjectsImg";
 import AdditionalProjects from "./projectSections/additionalProjects";
 import HackathonProjects from "./projectSections/hackathonProjects.js";
 import VisualComputingProjects from "./projectSections/visualComputingProjects.js";
+import ResearchPapersProjects from "./projectSections/researchPapersProjects.js";
 import CollapsibleSection from "../../components/collapsibleSection/CollapsibleSection";
 
 class Projects extends Component {
@@ -65,6 +66,10 @@ class Projects extends Component {
         <VisualComputingProjects
           theme={theme}
           reference={this.props.visualComputingRef}
+        />
+        <ResearchPapersProjects
+          theme={theme}
+          reference={this.props.researchRef}
         />
 
         <Button

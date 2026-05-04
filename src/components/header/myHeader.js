@@ -20,6 +20,7 @@ export default function MyHeader({
   educationRef,
   projectsRef,
   visualComputingRef,
+  researchRef,
 }) {
   const link = "home";
   function handleScroll(reference) {
@@ -128,6 +129,26 @@ export default function MyHeader({
                 <span className="nav-border-animation nav-border-bottom"></span>
                 <span className="nav-border-animation nav-border-left"></span>
                 Visual Computing
+              </span>
+            </li>
+            <li>
+              <span
+                style={{
+                  color: theme.text,
+                  cursor: "pointer",
+                  textDecoration: "none",
+                  display: "block",
+                  padding: "15px 25px",
+                  borderRadius: "8px",
+                  transition: "all 0.3s ease",
+                }}
+                onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                onMouseOut={(event) => onMouseOut(event)}
+                onClick={() => {
+                  if (researchRef) handleScroll(researchRef);
+                }}
+              >
+                Research
               </span>
             </li>
           </ul>

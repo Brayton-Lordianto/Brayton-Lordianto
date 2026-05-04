@@ -130,7 +130,7 @@
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 370px;
+  max-height: 500px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -306,9 +306,12 @@
   overflow: visible !important;
 } */
 
-/* Ensure the menu container doesn't clip */
-.header .menu {
-  overflow: visible !important;
+/* Ensure the menu container doesn't clip — desktop only.
+   On mobile, menu uses max-height collapse so overflow must stay hidden. */
+@media (min-width: 48em) {
+  .header .menu {
+    overflow: visible !important;
+  }
 }
 
 /* Make sure header doesn't clip the glow */
